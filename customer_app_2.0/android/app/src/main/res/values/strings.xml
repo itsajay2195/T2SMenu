@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomerApp</string>
+    <string name="facebook_app_id">123717548363220</string>
+    <string name="fb_login_protocol_scheme">fb123717548363220</string>
+    <string name="fb_app_name">Touch2Success</string>
+    <string name="notification_channel_id">General</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="instabug_key">cbb2b35123162d8b755035acf1c2ccd3</string>
+    <string name="campaign_analytics_key">LG57XKJRXH08N2L4KJQUEH6Y</string>
+</resources>

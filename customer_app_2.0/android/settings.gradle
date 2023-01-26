@@ -1,0 +1,11 @@
+rootProject.name = 'CustomerApp'
+include ':react-native-moengage-inbox'
+project(':react-native-moengage-inbox').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-moengage-inbox/android')
+include ':react-native-moengage'
+project(':react-native-moengage').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-moengage/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+include ':react-native-code-push'
+project(':react-native-code-push').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-code-push/android/app')
+include ':lottie-react-native'
+project(':lottie-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/lottie-react-native/src/android')

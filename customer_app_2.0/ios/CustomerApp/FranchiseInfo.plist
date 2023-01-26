@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Braze</key>
+	<dict>
+		<key>Endpoint</key>
+		<string>sdk.fra-01.braze.eu</string>
+	</dict>
+	<key>BuildTime</key>
+	<string></string>
+	<key>BundleSHA</key>
+	<string></string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Eat Appy</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Eat Appy</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string></string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb413052619897849</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string></string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.629413080520-mbqioq27i4p3633hn13j977e0ril6ssp</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CodePushDeploymentKey</key>
+	<string>rWDq8ywGxEuSPSTY_It-EmGvWuiyPoP1Sqnyx</string>
+	<key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
+	<true/>
+	<key>FacebookAppID</key>
+	<string>413052619897849</string>
+	<key>FacebookClientToken</key>
+	<string>ba92fea4aa1c4335b648b151bcbbb99a</string>
+	<key>FacebookDisplayName</key>
+	<string>Eat Appy</string>
+	<key>FirebaseCrashlyticsCollectionEnabled</key>
+	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>comgooglemaps</string>
+		<string>googlechromes</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>The app needs access to your Camera for you to be able to attach images.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Enabling this helps us deliver your food to the correct location.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Enabling this helps us deliver your food to the correct location.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Enabling this helps us deliver your food to the correct location.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>The app needs access to the microphone to be able to attach voice notes.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>The app needs access to your photo library for you to be able to attach images.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>icomoon.ttf</string>
+		<string>icomoon.woff</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Lato-Black.ttf</string>
+		<string>Lato-BlackItalic.ttf</string>
+		<string>Lato-Bold.ttf</string>
+		<string>Lato-BoldItalic.ttf</string>
+		<string>Lato-Italic.ttf</string>
+		<string>Lato-Light.ttf</string>
+		<string>Lato-LightItalic.ttf</string>
+		<string>Lato-Regular.ttf</string>
+		<string>Lato-Thin.ttf</string>
+		<string>Lato-ThinItalic.ttf</string>
+		<string>Lato-Semibold.ttf</string>
+		<string>Lato-Medium.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>FranchiseLaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDarkContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>MoEngageAppDelegateProxyEnabled</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,77 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.t2s">
+    <application>
+        <activity
+                android:name=".MainActivity"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+                android:exported="true"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <data
+                        android:host="foodhub.co.uk"
+                        android:scheme="https" />
+                <data
+                        android:host="foodhub.com"
+                        android:scheme="https" />
+                <data
+                        android:host="food-hub.nz"
+                        android:scheme="https" />
+                <data
+                        android:host="food-hub.ie"
+                        android:scheme="https" />
+                <data
+                        android:host="foodhub.com.au"
+                        android:scheme="https" />
+                <data
+                        android:host="foodhub.gt"
+                        android:scheme="https" />
+                <data
+                        android:host="foodhub.com.mx"
+                        android:scheme="https" />
+                <data
+                        android:host="sit-foodhub.fhcdn.dev"
+                        android:scheme="https" />
+
+                <data android:path="/" />
+                <data android:path="/location" />
+                <data android:pathPattern="/location/..*" />
+                <data android:path="/list" />
+                <data android:pathPattern="/ordernow/..*/..*/..*" />
+                <data android:pathPattern="/list/..*" />
+                <data android:pathPattern="/..*/..*/ordernow" />
+                <data android:pathPattern="/..*/..*/info" />
+                <data android:pathPattern="/..*/..*/reviews" />
+                <data android:path="/about-us" />
+                <data android:path="/terms-and-condition" />
+                <data android:path="/terms-and-use" />
+                <data android:path="/privacy" />
+                <data android:path="/allergy" />
+                <data android:path="/notifications" />
+                <data android:path="/sign_up" />
+                <data android:pathPattern="/thirdpartyoffer/..*" />
+                <data android:pathPattern="/paybylink/..*" />
+                <data android:pathPattern="/order-now" />
+                <data android:pathPattern="/contact-us" />
+                <data android:pathPattern="/review" />
+                <data android:path="/basket" />
+            </intent-filter>
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>

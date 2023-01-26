@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_appboy_api_key">00fa7470-5f53-4597-a496-4b034d68d561</string>
+    <string translatable="false" name="com_appboy_custom_endpoint">sdk.fra-01.braze.eu</string>
+    <bool name="com_braze_handle_push_deep_links_automatically">true</bool>
+</resources>

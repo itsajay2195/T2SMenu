@@ -1,0 +1,3024 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* CustomerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CustomerAppTests.m */; };
+		014D725F248E6D800000D54D /* ZohoSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014D725E248E6D800000D54D /* ZohoSupport.swift */; };
+		014D7261248E6DD50000D54D /* ZohoSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 014D7260248E6DD50000D54D /* ZohoSupport.m */; };
+		05B25F2CC6369AF9C47F6545 /* libPods-CommonPods-CustomerApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA7E3AB5A6B97F4C881E4E9 /* libPods-CommonPods-CustomerApp.a */; };
+		0F2BC4A3549883609AB4D22C /* libPods-CustomerAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE3814C9DE7CF384D6D55F /* libPods-CustomerAppTests.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* CustomerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CustomerAppTests.m */; };
+		3784A64C0A16B11382A0148A /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		6989792E25DCE8B300A3F33E /* T2SNativeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6989792D25DCE8B300A3F33E /* T2SNativeModule.m */; };
+		6989792F25DCE8B300A3F33E /* T2SNativeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6989792D25DCE8B300A3F33E /* T2SNativeModule.m */; };
+		6989793025DCE8B300A3F33E /* T2SNativeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6989792D25DCE8B300A3F33E /* T2SNativeModule.m */; };
+		6989793225DCE8C700A3F33E /* T2SNativeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6989793125DCE8C700A3F33E /* T2SNativeModule.swift */; };
+		6989793325DCE8C700A3F33E /* T2SNativeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6989793125DCE8C700A3F33E /* T2SNativeModule.swift */; };
+		6989793425DCE8C700A3F33E /* T2SNativeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6989793125DCE8C700A3F33E /* T2SNativeModule.swift */; };
+		81B0B159634F36D50D933E25 /* libPods-CommonPods-Foodhub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD67A84E4ECEE3B8A33DA43 /* libPods-CommonPods-Foodhub.a */; };
+		98C70503254339AE0068994C /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C70502254339AE0068994C /* PassKit.framework */; };
+		D4EAC42F05B5ED2432493418 /* libPods-CommonPods-FranchiseApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 292F770EA440AB205AF5F796 /* libPods-CommonPods-FranchiseApp.a */; };
+		D7046F8C26F9BFB100B0FB43 /* splash_screen.json in Resources */ = {isa = PBXBuildFile; fileRef = D7046F8B26F9BFB100B0FB43 /* splash_screen.json */; };
+		D7046F8E26F9D0C900B0FB43 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7046F8D26F9D0C900B0FB43 /* Dynamic.swift */; };
+		D71BD502250E154C001D2761 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		D7205F1628FECDFA00915BB5 /* ApplePayToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7205F1528FECDFA00915BB5 /* ApplePayToken.swift */; };
+		D7205F1728FECDFA00915BB5 /* ApplePayToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7205F1528FECDFA00915BB5 /* ApplePayToken.swift */; };
+		D7205F1828FECDFA00915BB5 /* ApplePayToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7205F1528FECDFA00915BB5 /* ApplePayToken.swift */; };
+		D72E1972259874DC00FB0938 /* ZohoSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 014D7260248E6DD50000D54D /* ZohoSupport.m */; };
+		D72E1973259874DC00FB0938 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		D72E1974259874DC00FB0938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D72E1975259874DC00FB0938 /* ZohoSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014D725E248E6D800000D54D /* ZohoSupport.swift */; };
+		D72E197C259874DC00FB0938 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA6F241A505B00349C6B /* icomoon.ttf */; };
+		D72E197E259874DC00FB0938 /* AirMaps in Resources */ = {isa = PBXBuildFile; fileRef = D77C87E924AA7A0F00FAF12C /* AirMaps */; };
+		D72E1981259874DC00FB0938 /* icomoon.eot in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA72241A505B00349C6B /* icomoon.eot */; };
+		D72E1983259874DC00FB0938 /* icomoon.svg in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA73241A505B00349C6B /* icomoon.svg */; };
+		D72E1984259874DC00FB0938 /* AirGoogleMaps in Resources */ = {isa = PBXBuildFile; fileRef = D77C87E824AA7A0F00FAF12C /* AirGoogleMaps */; };
+		D72E1986259874DC00FB0938 /* icomoon.woff in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA75241A505B00349C6B /* icomoon.woff */; };
+		D72E199D2598821300FB0938 /* FranchiseLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72E199B2598821300FB0938 /* FranchiseLaunchScreen.xib */; };
+		D72E19A02598863200FB0938 /* FranchiseInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D72E199F2598863200FB0938 /* FranchiseInfo.plist */; };
+		D741850C27AD0CE0003F31B3 /* FoodhubInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D741850B27AD0CE0003F31B3 /* FoodhubInfo.plist */; };
+		D741850E27AD0CF6003F31B3 /* MobilistenConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = D741850D27AD0CF6003F31B3 /* MobilistenConfiguration.plist */; };
+		D74F81F925066D610021ABB0 /* ZohoSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 014D7260248E6DD50000D54D /* ZohoSupport.m */; };
+		D74F81FC25066D610021ABB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D74F81FE25066D610021ABB0 /* ZohoSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014D725E248E6D800000D54D /* ZohoSupport.swift */; };
+		D74F820525066D610021ABB0 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA6F241A505B00349C6B /* icomoon.ttf */; };
+		D74F820625066D610021ABB0 /* AirMaps in Resources */ = {isa = PBXBuildFile; fileRef = D77C87E924AA7A0F00FAF12C /* AirMaps */; };
+		D74F820925066D610021ABB0 /* icomoon.eot in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA72241A505B00349C6B /* icomoon.eot */; };
+		D74F820A25066D610021ABB0 /* icomoon.svg in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA73241A505B00349C6B /* icomoon.svg */; };
+		D74F820B25066D610021ABB0 /* AirGoogleMaps in Resources */ = {isa = PBXBuildFile; fileRef = D77C87E824AA7A0F00FAF12C /* AirGoogleMaps */; };
+		D74F820D25066D610021ABB0 /* icomoon.woff in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA75241A505B00349C6B /* icomoon.woff */; };
+		D74F820F25066D610021ABB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D74F821E25067A870021ABB0 /* FoodhubLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74F821C25067A860021ABB0 /* FoodhubLaunchScreen.xib */; };
+		D76A59CD28C220ED004CF0BE /* moengage.plist in Resources */ = {isa = PBXBuildFile; fileRef = D76A59CC28C220ED004CF0BE /* moengage.plist */; };
+		D76A59CE28C220ED004CF0BE /* moengage.plist in Resources */ = {isa = PBXBuildFile; fileRef = D76A59CC28C220ED004CF0BE /* moengage.plist */; };
+		D76A59CF28C220ED004CF0BE /* moengage.plist in Resources */ = {isa = PBXBuildFile; fileRef = D76A59CC28C220ED004CF0BE /* moengage.plist */; };
+		D76A59D028C220ED004CF0BE /* moengage.plist in Resources */ = {isa = PBXBuildFile; fileRef = D76A59CC28C220ED004CF0BE /* moengage.plist */; };
+		D774362728A652CD00BF9399 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362328A652C800BF9399 /* Lato-Black.ttf */; };
+		D774362828A652CE00BF9399 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362328A652C800BF9399 /* Lato-Black.ttf */; };
+		D774362928A652CF00BF9399 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362328A652C800BF9399 /* Lato-Black.ttf */; };
+		D774362A28A652D600BF9399 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362428A652C800BF9399 /* Lato-LightItalic.ttf */; };
+		D774362B28A652D600BF9399 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362128A652C800BF9399 /* Lato-Light.ttf */; };
+		D774362C28A652D600BF9399 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362628A652C900BF9399 /* Lato-Thin.ttf */; };
+		D774362D28A652D600BF9399 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774361E28A652C800BF9399 /* Lato-BoldItalic.ttf */; };
+		D774362E28A652D600BF9399 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774361F28A652C800BF9399 /* Lato-Italic.ttf */; };
+		D774362F28A652D600BF9399 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362228A652C800BF9399 /* Lato-BlackItalic.ttf */; };
+		D774363028A652D600BF9399 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362528A652C800BF9399 /* Lato-Regular.ttf */; };
+		D774363128A652D600BF9399 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362028A652C800BF9399 /* Lato-Bold.ttf */; };
+		D774363228A652D700BF9399 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362428A652C800BF9399 /* Lato-LightItalic.ttf */; };
+		D774363328A652D700BF9399 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362128A652C800BF9399 /* Lato-Light.ttf */; };
+		D774363428A652D700BF9399 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362628A652C900BF9399 /* Lato-Thin.ttf */; };
+		D774363528A652D700BF9399 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774361E28A652C800BF9399 /* Lato-BoldItalic.ttf */; };
+		D774363628A652D700BF9399 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774361F28A652C800BF9399 /* Lato-Italic.ttf */; };
+		D774363728A652D700BF9399 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362228A652C800BF9399 /* Lato-BlackItalic.ttf */; };
+		D774363828A652D700BF9399 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362528A652C800BF9399 /* Lato-Regular.ttf */; };
+		D774363928A652D700BF9399 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362028A652C800BF9399 /* Lato-Bold.ttf */; };
+		D774363A28A652D700BF9399 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362428A652C800BF9399 /* Lato-LightItalic.ttf */; };
+		D774363B28A652D700BF9399 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362128A652C800BF9399 /* Lato-Light.ttf */; };
+		D774363C28A652D700BF9399 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362628A652C900BF9399 /* Lato-Thin.ttf */; };
+		D774363D28A652D700BF9399 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774361E28A652C800BF9399 /* Lato-BoldItalic.ttf */; };
+		D774363E28A652D700BF9399 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774361F28A652C800BF9399 /* Lato-Italic.ttf */; };
+		D774363F28A652D700BF9399 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362228A652C800BF9399 /* Lato-BlackItalic.ttf */; };
+		D774364028A652D700BF9399 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362528A652C800BF9399 /* Lato-Regular.ttf */; };
+		D774364128A652D700BF9399 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774362028A652C800BF9399 /* Lato-Bold.ttf */; };
+		D774364428A6578700BF9399 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774364228A6578700BF9399 /* Lato-Medium.ttf */; };
+		D774364528A6578700BF9399 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774364228A6578700BF9399 /* Lato-Medium.ttf */; };
+		D774364628A6578700BF9399 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774364228A6578700BF9399 /* Lato-Medium.ttf */; };
+		D774364728A6578700BF9399 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774364328A6578700BF9399 /* Lato-Semibold.ttf */; };
+		D774364828A6578700BF9399 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774364328A6578700BF9399 /* Lato-Semibold.ttf */; };
+		D774364928A6578700BF9399 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D774364328A6578700BF9399 /* Lato-Semibold.ttf */; };
+		D77A80BA28FD73E900370B2A /* ApplePayToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D77A80B928FD73E900370B2A /* ApplePayToken.m */; };
+		D77A80BB28FD73E900370B2A /* ApplePayToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D77A80B928FD73E900370B2A /* ApplePayToken.m */; };
+		D77A80BC28FD73E900370B2A /* ApplePayToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D77A80B928FD73E900370B2A /* ApplePayToken.m */; };
+		D77C87EA24AA7A0F00FAF12C /* AirGoogleMaps in Resources */ = {isa = PBXBuildFile; fileRef = D77C87E824AA7A0F00FAF12C /* AirGoogleMaps */; };
+		D77C87EB24AA7A0F00FAF12C /* AirMaps in Resources */ = {isa = PBXBuildFile; fileRef = D77C87E924AA7A0F00FAF12C /* AirMaps */; };
+		D7802BD028C206E40088FF97 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7802BCF28C206E40088FF97 /* NotificationService.swift */; };
+		D7802BD428C206E40088FF97 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7802BCD28C206E40088FF97 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7802BD928C2076D0088FF97 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7959AAE28BFC3E200FD8E98 /* UserNotifications.framework */; };
+		D780665D270ACF480045A5B0 /* fh_splash_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D780665C270ACF480045A5B0 /* fh_splash_bg.png */; };
+		D79B34B228D849D600995B2C /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34A728D849D600995B2C /* Lato-Semibold.ttf */; };
+		D79B34B328D849D600995B2C /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34A728D849D600995B2C /* Lato-Semibold.ttf */; };
+		D79B34B428D849D600995B2C /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34A728D849D600995B2C /* Lato-Semibold.ttf */; };
+		D79B34B628D849D600995B2C /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34A828D849D600995B2C /* Lato-BoldItalic.ttf */; };
+		D79B34B728D849D600995B2C /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34A828D849D600995B2C /* Lato-BoldItalic.ttf */; };
+		D79B34B928D849D600995B2C /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34A928D849D600995B2C /* Lato-LightItalic.ttf */; };
+		D79B34BA28D849D600995B2C /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34A928D849D600995B2C /* Lato-LightItalic.ttf */; };
+		D79B34C128D849D600995B2C /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34AC28D849D600995B2C /* Lato-Light.ttf */; };
+		D79B34C428D849D600995B2C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34AD28D849D600995B2C /* Lato-Regular.ttf */; };
+		D79B34C528D849D600995B2C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34AD28D849D600995B2C /* Lato-Regular.ttf */; };
+		D79B34C628D849D600995B2C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34AD28D849D600995B2C /* Lato-Regular.ttf */; };
+		D79B34C928D849D600995B2C /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34AE28D849D600995B2C /* Lato-Thin.ttf */; };
+		D79B34CC28D849D600995B2C /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34AF28D849D600995B2C /* Lato-Bold.ttf */; };
+		D79B34D128D849D600995B2C /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B34B128D849D600995B2C /* Lato-Black.ttf */; };
+		D7AD8935261F550600E57D9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7AD8933261F53DB00E57D9E /* Localizable.strings */; };
+		D7AD8937261F5BB100E57D9E /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AD8936261F5BB100E57D9E /* LocalizationHelper.swift */; };
+		D7AD8938261F5BB100E57D9E /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AD8936261F5BB100E57D9E /* LocalizationHelper.swift */; };
+		D7AD8939261F5BB100E57D9E /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AD8936261F5BB100E57D9E /* LocalizationHelper.swift */; };
+		D7AD893A261F5BB800E57D9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7AD8933261F53DB00E57D9E /* Localizable.strings */; };
+		D7AD893B261F5BB900E57D9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7AD8933261F53DB00E57D9E /* Localizable.strings */; };
+		D7BEF82D25A2CF1900A6FCFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D7C6FD502599137100A1012A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D72E1997259877C000FB0938 /* GoogleService-Info.plist */; };
+		D7D52E0F25370ECC00B60F31 /* FHMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D52E0E25370ECC00B60F31 /* FHMigration.swift */; };
+		D7D52E1125370F0700B60F31 /* FHMigration.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D52E1025370F0700B60F31 /* FHMigration.m */; };
+		D7D9AA77241A505B00349C6B /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA6F241A505B00349C6B /* icomoon.ttf */; };
+		D7D9AA7A241A505B00349C6B /* icomoon.eot in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA72241A505B00349C6B /* icomoon.eot */; };
+		D7D9AA7B241A505B00349C6B /* icomoon.svg in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA73241A505B00349C6B /* icomoon.svg */; };
+		D7D9AA7D241A505B00349C6B /* icomoon.woff in Resources */ = {isa = PBXBuildFile; fileRef = D7D9AA75241A505B00349C6B /* icomoon.woff */; };
+		D7E021C026B2851A00BB1937 /* BrazeSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E021BF26B2851A00BB1937 /* BrazeSupport.m */; };
+		D7E021C126B2851A00BB1937 /* BrazeSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E021BF26B2851A00BB1937 /* BrazeSupport.m */; };
+		D7E021C226B2851A00BB1937 /* BrazeSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E021BF26B2851A00BB1937 /* BrazeSupport.m */; };
+		D7E6BF09250FA7C200131DD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BF05250FA7C200131DD6 /* GoogleService-Info.plist */; };
+		D7E6BF0A250FA7C200131DD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BF07250FA7C200131DD6 /* GoogleService-Info.plist */; };
+		D7FC6B1926493E4F00C8E3BE /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7FC6B1226493E4E00C8E3BE /* AppCenter-Config.plist */; };
+		D7FC6B1B26493E4F00C8E3BE /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7FC6B1426493E4E00C8E3BE /* AppCenter-Config.plist */; };
+		D7FC6B1D26493E4F00C8E3BE /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7FC6B1626493E4E00C8E3BE /* AppCenter-Config.plist */; };
+		D7FC70A8270BD090003EE134 /* fh_splash_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D780665C270ACF480045A5B0 /* fh_splash_bg.png */; };
+		D7FC70A9270BD096003EE134 /* splash_screen.json in Resources */ = {isa = PBXBuildFile; fileRef = D7046F8B26F9BFB100B0FB43 /* splash_screen.json */; };
+		D7FC70AA270BD0A2003EE134 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7046F8D26F9D0C900B0FB43 /* Dynamic.swift */; };
+		D7FC70AB270BD7B6003EE134 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7046F8D26F9D0C900B0FB43 /* Dynamic.swift */; };
+		D7FC70AC270BD7BF003EE134 /* fh_splash_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D780665C270ACF480045A5B0 /* fh_splash_bg.png */; };
+		D7FC70AD270BD7C9003EE134 /* splash_screen.json in Resources */ = {isa = PBXBuildFile; fileRef = D7046F8B26F9BFB100B0FB43 /* splash_screen.json */; };
+		D8BF6186AA04FBFBC256BDAD /* libPods-CustomerApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EA0F646BE0BD8156CBB02D /* libPods-CustomerApp-tvOSTests.a */; };
+		E605138D8C48B461CCC03046 /* libPods-NotificationService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF648272711E77DA04F1BF /* libPods-NotificationService.a */; };
+		FCB90B1899FD991F57938CFE /* libPods-CommonPods-CustomerApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C64AD250504157D10C01AC /* libPods-CommonPods-CustomerApp-tvOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = CustomerApp;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "CustomerApp-tvOS";
+		};
+		D7802BD228C206E40088FF97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7802BCC28C206E40088FF97;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D761BD0728A6540200DF891F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7802BD828C206E40088FF97 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7802BD428C206E40088FF97 /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7959AAC28BFC30C00FD8E98 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0041B98FF790B59F6C37A903 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* CustomerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CustomerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerAppTests.m; sourceTree = "<group>"; };
+		014D7256248E6AF80000D54D /* CustomerApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomerApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		014D725E248E6D800000D54D /* ZohoSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZohoSupport.swift; sourceTree = "<group>"; };
+		014D7260248E6DD50000D54D /* ZohoSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZohoSupport.m; sourceTree = "<group>"; };
+		0BBE4F7AA945F17BAA51B8E8 /* Pods-CommonPods-FranchiseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-FranchiseApp.debug.xcconfig"; path = "Target Support Files/Pods-CommonPods-FranchiseApp/Pods-CommonPods-FranchiseApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0EFF648272711E77DA04F1BF /* libPods-NotificationService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* CustomerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CustomerApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CustomerApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CustomerApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CustomerApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CustomerApp/main.m; sourceTree = "<group>"; };
+		1E9592B98AEF97A22BFB4290 /* Pods-CustomerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CustomerAppTests/Pods-CustomerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		201EB81FDDFDBBD94F4BA841 /* Pods-CustomerApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CustomerApp-tvOS/Pods-CustomerApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		292F770EA440AB205AF5F796 /* libPods-CommonPods-FranchiseApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonPods-FranchiseApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* CustomerApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CustomerApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* CustomerApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CustomerApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD67A84E4ECEE3B8A33DA43 /* libPods-CommonPods-Foodhub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonPods-Foodhub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A96E5F262F5D3C13969195C /* Pods-CommonPods-FranchiseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-FranchiseApp.release.xcconfig"; path = "Target Support Files/Pods-CommonPods-FranchiseApp/Pods-CommonPods-FranchiseApp.release.xcconfig"; sourceTree = "<group>"; };
+		3DC1222EA496BB27E613D129 /* Pods-CustomerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerApp.release.xcconfig"; path = "Target Support Files/Pods-CustomerApp/Pods-CustomerApp.release.xcconfig"; sourceTree = "<group>"; };
+		466DE2B39B80DC5BC660A0D0 /* Pods-CommonPods-CustomerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-CustomerApp.debug.xcconfig"; path = "Target Support Files/Pods-CommonPods-CustomerApp/Pods-CommonPods-CustomerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4B0191882A9A522389B4C84A /* Pods-CustomerApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CustomerApp-tvOSTests/Pods-CustomerApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EB83F715691F1A24A8750D6 /* Pods-CustomerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerAppTests.release.xcconfig"; path = "Target Support Files/Pods-CustomerAppTests/Pods-CustomerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F768ECE15A9329A5A1EFE15 /* Pods-NotificationServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServices.debug.xcconfig"; path = "Target Support Files/Pods-NotificationServices/Pods-NotificationServices.debug.xcconfig"; sourceTree = "<group>"; };
+		51B185B97501B3438EF8B56C /* Pods-Foodhub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodhub.release.xcconfig"; path = "Target Support Files/Pods-Foodhub/Pods-Foodhub.release.xcconfig"; sourceTree = "<group>"; };
+		55EA0F646BE0BD8156CBB02D /* libPods-CustomerApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomerApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6989792D25DCE8B300A3F33E /* T2SNativeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T2SNativeModule.m; sourceTree = "<group>"; };
+		6989793125DCE8C700A3F33E /* T2SNativeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T2SNativeModule.swift; sourceTree = "<group>"; };
+		69911F95248B3CFF00E4A4B6 /* CustomerApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = CustomerApp.entitlements; path = CustomerApp/CustomerApp.entitlements; sourceTree = "<group>"; };
+		7D9A79D8E736767BBEFB35AA /* Pods-CustomerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerApp.debug.xcconfig"; path = "Target Support Files/Pods-CustomerApp/Pods-CustomerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		85EB1C33E24D49F1947EFFDA /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		8FEDE8304213F06547F7F4DB /* Pods-Foodhub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodhub.debug.xcconfig"; path = "Target Support Files/Pods-Foodhub/Pods-Foodhub.debug.xcconfig"; sourceTree = "<group>"; };
+		911FB210FAEDCBA4621F3560 /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		93C64AD250504157D10C01AC /* libPods-CommonPods-CustomerApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonPods-CustomerApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CEB641005876A31ED86700 /* Pods-CommonPods-CustomerApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-CustomerApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CommonPods-CustomerApp-tvOS/Pods-CommonPods-CustomerApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		98C70502254339AE0068994C /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		B1157F93D043BB548C3A96F3 /* Pods-CommonPods-Foodhub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-Foodhub.debug.xcconfig"; path = "Target Support Files/Pods-CommonPods-Foodhub/Pods-CommonPods-Foodhub.debug.xcconfig"; sourceTree = "<group>"; };
+		B2F61779B5C7D5DD902AA3E7 /* Pods-CommonPods-CustomerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-CustomerApp.release.xcconfig"; path = "Target Support Files/Pods-CommonPods-CustomerApp/Pods-CommonPods-CustomerApp.release.xcconfig"; sourceTree = "<group>"; };
+		B551CF5C7AF2006801D778DB /* Pods-CommonPods-Foodhub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-Foodhub.release.xcconfig"; path = "Target Support Files/Pods-CommonPods-Foodhub/Pods-CommonPods-Foodhub.release.xcconfig"; sourceTree = "<group>"; };
+		B6516E011EFE2D364BD2C637 /* Pods-CustomerApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CustomerApp-tvOSTests/Pods-CustomerApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD879103BFA8AFD4A65DD154 /* Pods-CustomerApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CustomerApp-tvOS/Pods-CustomerApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D7046F8B26F9BFB100B0FB43 /* splash_screen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash_screen.json; sourceTree = "<group>"; };
+		D7046F8D26F9D0C900B0FB43 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		D7205F1528FECDFA00915BB5 /* ApplePayToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayToken.swift; sourceTree = "<group>"; };
+		D72E1993259874DC00FB0938 /* FranchiseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FranchiseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E1997259877C000FB0938 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D72E199C2598821300FB0938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = CustomerApp/Base.lproj/FranchiseLaunchScreen.xib; sourceTree = "<group>"; };
+		D72E199E2598862000FB0938 /* FranchiseApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = FranchiseApp.entitlements; path = CustomerApp/FranchiseApp.entitlements; sourceTree = "<group>"; };
+		D72E199F2598863200FB0938 /* FranchiseInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FranchiseInfo.plist; path = CustomerApp/FranchiseInfo.plist; sourceTree = "<group>"; };
+		D73E26DE27FB00E300CC71E2 /* FoodhubRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodhubRelease.entitlements; sourceTree = "<group>"; };
+		D741850B27AD0CE0003F31B3 /* FoodhubInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FoodhubInfo.plist; path = CustomerApp/FoodhubInfo.plist; sourceTree = "<group>"; };
+		D741850D27AD0CF6003F31B3 /* MobilistenConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MobilistenConfiguration.plist; sourceTree = "<group>"; };
+		D74F821A25066D610021ABB0 /* Foodhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74F821D25067A860021ABB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = CustomerApp/Base.lproj/FoodhubLaunchScreen.xib; sourceTree = "<group>"; };
+		D76A59CC28C220ED004CF0BE /* moengage.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = moengage.plist; sourceTree = "<group>"; };
+		D774361E28A652C800BF9399 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BoldItalic.ttf"; path = "../resources/fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D774361F28A652C800BF9399 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "../resources/fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		D774362028A652C800BF9399 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../resources/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		D774362128A652C800BF9399 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "../resources/fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		D774362228A652C800BF9399 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BlackItalic.ttf"; path = "../resources/fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D774362328A652C800BF9399 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "../resources/fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
+		D774362428A652C800BF9399 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-LightItalic.ttf"; path = "../resources/fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		D774362528A652C800BF9399 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../resources/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		D774362628A652C900BF9399 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Thin.ttf"; path = "../resources/fonts/Lato-Thin.ttf"; sourceTree = "<group>"; };
+		D774364228A6578700BF9399 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Medium.ttf"; path = "../resources/fonts/Lato-Medium.ttf"; sourceTree = "<group>"; };
+		D774364328A6578700BF9399 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Semibold.ttf"; path = "../resources/fonts/Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		D77A80B928FD73E900370B2A /* ApplePayToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePayToken.m; sourceTree = "<group>"; };
+		D77C87E824AA7A0F00FAF12C /* AirGoogleMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AirGoogleMaps; path = "../node_modules/react-native-maps/lib/ios/AirGoogleMaps"; sourceTree = "<group>"; };
+		D77C87E924AA7A0F00FAF12C /* AirMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AirMaps; path = "../node_modules/react-native-maps/lib/ios/AirMaps"; sourceTree = "<group>"; };
+		D7802BCD28C206E40088FF97 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7802BCF28C206E40088FF97 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		D7802BD128C206E40088FF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7802BDB28C2078B0088FF97 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
+		D7802BDC28C207A30088FF97 /* NotificationServiceRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationServiceRelease.entitlements; sourceTree = "<group>"; };
+		D780665C270ACF480045A5B0 /* fh_splash_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fh_splash_bg.png; sourceTree = "<group>"; };
+		D7856674254AC58500121D68 /* Foodhub.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = Foodhub.entitlements; path = CustomerApp/Foodhub.entitlements; sourceTree = "<group>"; };
+		D787C4A928BE2B090032CAA7 /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = "Pods/OpenSSL-Universal/Frameworks/OpenSSL.xcframework"; sourceTree = "<group>"; };
+		D7959AAE28BFC3E200FD8E98 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		D7959AB028BFC66F00FD8E98 /* MORichNotification.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MORichNotification.xcframework; path = Pods/MORichNotification/Frameworks/MORichNotification.xcframework; sourceTree = "<group>"; };
+		D7959AB428BFCCCD00FD8E98 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		D79B34A728D849D600995B2C /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Semibold.ttf"; path = "../resources/fonts/Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		D79B34A828D849D600995B2C /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BoldItalic.ttf"; path = "../resources/fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D79B34A928D849D600995B2C /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-LightItalic.ttf"; path = "../resources/fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		D79B34AA28D849D600995B2C /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BlackItalic.ttf"; path = "../resources/fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D79B34AB28D849D600995B2C /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Medium.ttf"; path = "../resources/fonts/Lato-Medium.ttf"; sourceTree = "<group>"; };
+		D79B34AC28D849D600995B2C /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "../resources/fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		D79B34AD28D849D600995B2C /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../resources/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		D79B34AE28D849D600995B2C /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Thin.ttf"; path = "../resources/fonts/Lato-Thin.ttf"; sourceTree = "<group>"; };
+		D79B34AF28D849D600995B2C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../resources/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		D79B34B028D849D600995B2C /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "../resources/fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		D79B34B128D849D600995B2C /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "../resources/fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
+		D7AD8932261F53DB00E57D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D7AD8934261F542C00E57D9E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D7AD8936261F5BB100E57D9E /* LocalizationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationHelper.swift; sourceTree = "<group>"; };
+		D7D52E0E25370ECC00B60F31 /* FHMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHMigration.swift; sourceTree = "<group>"; };
+		D7D52E1025370F0700B60F31 /* FHMigration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHMigration.m; sourceTree = "<group>"; };
+		D7D9AA6F241A505B00349C6B /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = icomoon.ttf; path = ../resources/fonts/icomoon.ttf; sourceTree = "<group>"; };
+		D7D9AA72241A505B00349C6B /* icomoon.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = icomoon.eot; path = ../resources/fonts/icomoon.eot; sourceTree = "<group>"; };
+		D7D9AA73241A505B00349C6B /* icomoon.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = icomoon.svg; path = ../resources/fonts/icomoon.svg; sourceTree = "<group>"; };
+		D7D9AA75241A505B00349C6B /* icomoon.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = icomoon.woff; path = ../resources/fonts/icomoon.woff; sourceTree = "<group>"; };
+		D7E021BF26B2851A00BB1937 /* BrazeSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrazeSupport.m; sourceTree = "<group>"; };
+		D7E021C326B2853C00BB1937 /* BrazeSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrazeSupport.h; sourceTree = "<group>"; };
+		D7E6BF05250FA7C200131DD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7E6BF07250FA7C200131DD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7FC6B1226493E4E00C8E3BE /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
+		D7FC6B1426493E4E00C8E3BE /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
+		D7FC6B1626493E4E00C8E3BE /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
+		DA8CD6FF9C375E08B2242041 /* Pods-CommonPods-CustomerApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-CustomerApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CommonPods-CustomerApp-tvOS/Pods-CommonPods-CustomerApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		DBF8E7AF39030C3BB5EB3C06 /* Pods-NotificationServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServices.release.xcconfig"; path = "Target Support Files/Pods-NotificationServices/Pods-NotificationServices.release.xcconfig"; sourceTree = "<group>"; };
+		E2DFA4207FDF482E8C6FC628 /* libPods-NotificationServices.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationServices.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EFEE3814C9DE7CF384D6D55F /* libPods-CustomerAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomerAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA7E3AB5A6B97F4C881E4E9 /* libPods-CommonPods-CustomerApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonPods-CustomerApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2BC4A3549883609AB4D22C /* libPods-CustomerAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3784A64C0A16B11382A0148A /* (null) in Frameworks */,
+				05B25F2CC6369AF9C47F6545 /* libPods-CommonPods-CustomerApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB90B1899FD991F57938CFE /* libPods-CommonPods-CustomerApp-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BF6186AA04FBFBC256BDAD /* libPods-CustomerApp-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E1978259874DC00FB0938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EAC42F05B5ED2432493418 /* libPods-CommonPods-FranchiseApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F820025066D610021ABB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C70503254339AE0068994C /* PassKit.framework in Frameworks */,
+				81B0B159634F36D50D933E25 /* libPods-CommonPods-Foodhub.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7802BCA28C206E40088FF97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7802BD928C2076D0088FF97 /* UserNotifications.framework in Frameworks */,
+				E605138D8C48B461CCC03046 /* libPods-NotificationService.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CustomerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CustomerAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CustomerAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0329759AF1A142E9A802E1A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85EB1C33E24D49F1947EFFDA /* MaterialIcons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* CustomerApp */ = {
+			isa = PBXGroup;
+			children = (
+				D780665C270ACF480045A5B0 /* fh_splash_bg.png */,
+				D7046F8B26F9BFB100B0FB43 /* splash_screen.json */,
+				D7FC6B1026493E4E00C8E3BE /* MSAppcenter */,
+				D7AD892E261F53B800E57D9E /* Localization */,
+				D7E6BF03250FA7C100131DD6 /* Firebase */,
+				69911F95248B3CFF00E4A4B6 /* CustomerApp.entitlements */,
+				D7856674254AC58500121D68 /* Foodhub.entitlements */,
+				D72E199E2598862000FB0938 /* FranchiseApp.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				D741850B27AD0CE0003F31B3 /* FoodhubInfo.plist */,
+				D72E199F2598863200FB0938 /* FranchiseInfo.plist */,
+				D741850D27AD0CF6003F31B3 /* MobilistenConfiguration.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				D74F821C25067A860021ABB0 /* FoodhubLaunchScreen.xib */,
+				D72E199B2598821300FB0938 /* FranchiseLaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				014D7256248E6AF80000D54D /* CustomerApp-Bridging-Header.h */,
+				014D725E248E6D800000D54D /* ZohoSupport.swift */,
+				014D7260248E6DD50000D54D /* ZohoSupport.m */,
+				D7D52E0E25370ECC00B60F31 /* FHMigration.swift */,
+				D7D52E1025370F0700B60F31 /* FHMigration.m */,
+				6989792D25DCE8B300A3F33E /* T2SNativeModule.m */,
+				6989793125DCE8C700A3F33E /* T2SNativeModule.swift */,
+				D7E021BF26B2851A00BB1937 /* BrazeSupport.m */,
+				D7E021C326B2853C00BB1937 /* BrazeSupport.h */,
+				D7046F8D26F9D0C900B0FB43 /* Dynamic.swift */,
+				D77A80B928FD73E900370B2A /* ApplePayToken.m */,
+				D7205F1528FECDFA00915BB5 /* ApplePayToken.swift */,
+			);
+			name = CustomerApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7959AB428BFCCCD00FD8E98 /* UserNotificationsUI.framework */,
+				D7959AB028BFC66F00FD8E98 /* MORichNotification.xcframework */,
+				D7959AAE28BFC3E200FD8E98 /* UserNotifications.framework */,
+				D787C4A928BE2B090032CAA7 /* OpenSSL.xcframework */,
+				98C70502254339AE0068994C /* PassKit.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				55EA0F646BE0BD8156CBB02D /* libPods-CustomerApp-tvOSTests.a */,
+				EFEE3814C9DE7CF384D6D55F /* libPods-CustomerAppTests.a */,
+				93C64AD250504157D10C01AC /* libPods-CommonPods-CustomerApp-tvOS.a */,
+				2DD67A84E4ECEE3B8A33DA43 /* libPods-CommonPods-Foodhub.a */,
+				292F770EA440AB205AF5F796 /* libPods-CommonPods-FranchiseApp.a */,
+				FFA7E3AB5A6B97F4C881E4E9 /* libPods-CommonPods-CustomerApp.a */,
+				E2DFA4207FDF482E8C6FC628 /* libPods-NotificationServices.a */,
+				0EFF648272711E77DA04F1BF /* libPods-NotificationService.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C8D878F40C341DB8FF1715F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D9A79D8E736767BBEFB35AA /* Pods-CustomerApp.debug.xcconfig */,
+				3DC1222EA496BB27E613D129 /* Pods-CustomerApp.release.xcconfig */,
+				CD879103BFA8AFD4A65DD154 /* Pods-CustomerApp-tvOS.debug.xcconfig */,
+				201EB81FDDFDBBD94F4BA841 /* Pods-CustomerApp-tvOS.release.xcconfig */,
+				B6516E011EFE2D364BD2C637 /* Pods-CustomerApp-tvOSTests.debug.xcconfig */,
+				4B0191882A9A522389B4C84A /* Pods-CustomerApp-tvOSTests.release.xcconfig */,
+				1E9592B98AEF97A22BFB4290 /* Pods-CustomerAppTests.debug.xcconfig */,
+				4EB83F715691F1A24A8750D6 /* Pods-CustomerAppTests.release.xcconfig */,
+				8FEDE8304213F06547F7F4DB /* Pods-Foodhub.debug.xcconfig */,
+				51B185B97501B3438EF8B56C /* Pods-Foodhub.release.xcconfig */,
+				466DE2B39B80DC5BC660A0D0 /* Pods-CommonPods-CustomerApp.debug.xcconfig */,
+				B2F61779B5C7D5DD902AA3E7 /* Pods-CommonPods-CustomerApp.release.xcconfig */,
+				97CEB641005876A31ED86700 /* Pods-CommonPods-CustomerApp-tvOS.debug.xcconfig */,
+				DA8CD6FF9C375E08B2242041 /* Pods-CommonPods-CustomerApp-tvOS.release.xcconfig */,
+				B1157F93D043BB548C3A96F3 /* Pods-CommonPods-Foodhub.debug.xcconfig */,
+				B551CF5C7AF2006801D778DB /* Pods-CommonPods-Foodhub.release.xcconfig */,
+				0BBE4F7AA945F17BAA51B8E8 /* Pods-CommonPods-FranchiseApp.debug.xcconfig */,
+				3A96E5F262F5D3C13969195C /* Pods-CommonPods-FranchiseApp.release.xcconfig */,
+				4F768ECE15A9329A5A1EFE15 /* Pods-NotificationServices.debug.xcconfig */,
+				DBF8E7AF39030C3BB5EB3C06 /* Pods-NotificationServices.release.xcconfig */,
+				911FB210FAEDCBA4621F3560 /* Pods-NotificationService.debug.xcconfig */,
+				0041B98FF790B59F6C37A903 /* Pods-NotificationService.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				D76A59CC28C220ED004CF0BE /* moengage.plist */,
+				D79B34D428D849F600995B2C /* Fonts */,
+				D73E26DE27FB00E300CC71E2 /* FoodhubRelease.entitlements */,
+				D77C87E824AA7A0F00FAF12C /* AirGoogleMaps */,
+				D77C87E924AA7A0F00FAF12C /* AirMaps */,
+				D7D9AA72241A505B00349C6B /* icomoon.eot */,
+				D7D9AA73241A505B00349C6B /* icomoon.svg */,
+				D7D9AA6F241A505B00349C6B /* icomoon.ttf */,
+				D7D9AA75241A505B00349C6B /* icomoon.woff */,
+				D774362328A652C800BF9399 /* Lato-Black.ttf */,
+				D774364228A6578700BF9399 /* Lato-Medium.ttf */,
+				D774364328A6578700BF9399 /* Lato-Semibold.ttf */,
+				D774362228A652C800BF9399 /* Lato-BlackItalic.ttf */,
+				D774362028A652C800BF9399 /* Lato-Bold.ttf */,
+				D774361E28A652C800BF9399 /* Lato-BoldItalic.ttf */,
+				D774361F28A652C800BF9399 /* Lato-Italic.ttf */,
+				D774362128A652C800BF9399 /* Lato-Light.ttf */,
+				D774362428A652C800BF9399 /* Lato-LightItalic.ttf */,
+				D774362528A652C800BF9399 /* Lato-Regular.ttf */,
+				D774362628A652C900BF9399 /* Lato-Thin.ttf */,
+				13B07FAE1A68108700A75B9A /* CustomerApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CustomerAppTests */,
+				D7802BCE28C206E40088FF97 /* NotificationService */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				6C8D878F40C341DB8FF1715F /* Pods */,
+				0329759AF1A142E9A802E1A8 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* CustomerApp.app */,
+				00E356EE1AD99517003FC87E /* CustomerAppTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* CustomerApp-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* CustomerApp-tvOSTests.xctest */,
+				D74F821A25066D610021ABB0 /* Foodhub.app */,
+				D72E1993259874DC00FB0938 /* FranchiseApp.app */,
+				D7802BCD28C206E40088FF97 /* NotificationService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D72E19952598752400FB0938 /* FranchiseApp */ = {
+			isa = PBXGroup;
+			children = (
+				D72E1997259877C000FB0938 /* GoogleService-Info.plist */,
+			);
+			path = FranchiseApp;
+			sourceTree = "<group>";
+		};
+		D7802BCE28C206E40088FF97 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				D7802BDC28C207A30088FF97 /* NotificationServiceRelease.entitlements */,
+				D7802BDB28C2078B0088FF97 /* NotificationService.entitlements */,
+				D7802BCF28C206E40088FF97 /* NotificationService.swift */,
+				D7802BD128C206E40088FF97 /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		D79B34D428D849F600995B2C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D79B34B128D849D600995B2C /* Lato-Black.ttf */,
+				D79B34AA28D849D600995B2C /* Lato-BlackItalic.ttf */,
+				D79B34AF28D849D600995B2C /* Lato-Bold.ttf */,
+				D79B34A828D849D600995B2C /* Lato-BoldItalic.ttf */,
+				D79B34B028D849D600995B2C /* Lato-Italic.ttf */,
+				D79B34AC28D849D600995B2C /* Lato-Light.ttf */,
+				D79B34A928D849D600995B2C /* Lato-LightItalic.ttf */,
+				D79B34AB28D849D600995B2C /* Lato-Medium.ttf */,
+				D79B34AD28D849D600995B2C /* Lato-Regular.ttf */,
+				D79B34A728D849D600995B2C /* Lato-Semibold.ttf */,
+				D79B34AE28D849D600995B2C /* Lato-Thin.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		D7AD892E261F53B800E57D9E /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D7AD8933261F53DB00E57D9E /* Localizable.strings */,
+				D7AD8936261F5BB100E57D9E /* LocalizationHelper.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		D7E6BF03250FA7C100131DD6 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				D72E19952598752400FB0938 /* FranchiseApp */,
+				D7E6BF04250FA7C100131DD6 /* Foodhub */,
+				D7E6BF06250FA7C200131DD6 /* CustomerApp */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		D7E6BF04250FA7C100131DD6 /* Foodhub */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6BF05250FA7C200131DD6 /* GoogleService-Info.plist */,
+			);
+			path = Foodhub;
+			sourceTree = "<group>";
+		};
+		D7E6BF06250FA7C200131DD6 /* CustomerApp */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6BF07250FA7C200131DD6 /* GoogleService-Info.plist */,
+			);
+			path = CustomerApp;
+			sourceTree = "<group>";
+		};
+		D7FC6B1026493E4E00C8E3BE /* MSAppcenter */ = {
+			isa = PBXGroup;
+			children = (
+				D7FC6B1126493E4E00C8E3BE /* FranchiseApp */,
+				D7FC6B1326493E4E00C8E3BE /* Foodhub */,
+				D7FC6B1526493E4E00C8E3BE /* CustomerApp */,
+			);
+			path = MSAppcenter;
+			sourceTree = "<group>";
+		};
+		D7FC6B1126493E4E00C8E3BE /* FranchiseApp */ = {
+			isa = PBXGroup;
+			children = (
+				D7FC6B1226493E4E00C8E3BE /* AppCenter-Config.plist */,
+			);
+			path = FranchiseApp;
+			sourceTree = "<group>";
+		};
+		D7FC6B1326493E4E00C8E3BE /* Foodhub */ = {
+			isa = PBXGroup;
+			children = (
+				D7FC6B1426493E4E00C8E3BE /* AppCenter-Config.plist */,
+			);
+			path = Foodhub;
+			sourceTree = "<group>";
+		};
+		D7FC6B1526493E4E00C8E3BE /* CustomerApp */ = {
+			isa = PBXGroup;
+			children = (
+				D7FC6B1626493E4E00C8E3BE /* AppCenter-Config.plist */,
+			);
+			path = CustomerApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* CustomerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CustomerAppTests" */;
+			buildPhases = (
+				03B66CF056D262A62C48D9BB /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = CustomerAppTests;
+			productName = CustomerAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* CustomerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* CustomerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CustomerApp" */;
+			buildPhases = (
+				EF14B19716774602530F7C89 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				2F26A15D6E992BB549A2F476 /* [CP] Copy Pods Resources */,
+				41D72C2381A97258CA9EC94F /* [CP] Embed Pods Frameworks */,
+				D7B69FA825F0A72700498FFE /* ShellScript */,
+				D7959AAC28BFC30C00FD8E98 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomerApp;
+			productName = CustomerApp;
+			productReference = 13B07F961A680F5B00A75B9A /* CustomerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* CustomerApp-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CustomerApp-tvOS" */;
+			buildPhases = (
+				13160D6A3AC689C9633F9E28 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+				3BDFC3E87C828275B6D3DDFC /* [CP] Embed Pods Frameworks */,
+				7610998BA91DD51E32B19992 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomerApp-tvOS";
+			productName = "CustomerApp-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* CustomerApp-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* CustomerApp-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CustomerApp-tvOSTests" */;
+			buildPhases = (
+				83A7563FFE285A79E2C40D66 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "CustomerApp-tvOSTests";
+			productName = "CustomerApp-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* CustomerApp-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D72E196E259874DC00FB0938 /* FranchiseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72E1990259874DC00FB0938 /* Build configuration list for PBXNativeTarget "FranchiseApp" */;
+			buildPhases = (
+				D72E196F259874DC00FB0938 /* [CP] Check Pods Manifest.lock */,
+				D72E1970259874DC00FB0938 /* Start Packager */,
+				D72E1971259874DC00FB0938 /* Sources */,
+				D72E1978259874DC00FB0938 /* Frameworks */,
+				D72E197A259874DC00FB0938 /* Resources */,
+				D72E1989259874DC00FB0938 /* Bundle React Native code and images */,
+				D72E198A259874DC00FB0938 /* [CP] Copy Pods Resources */,
+				D72E198C259874DC00FB0938 /* [CP] Embed Pods Frameworks */,
+				D7B69FA725F0A70800498FFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FranchiseApp;
+			productName = CustomerApp;
+			productReference = D72E1993259874DC00FB0938 /* FranchiseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D74F81F525066D610021ABB0 /* Foodhub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74F821725066D610021ABB0 /* Build configuration list for PBXNativeTarget "Foodhub" */;
+			buildPhases = (
+				D74F81F625066D610021ABB0 /* [CP] Check Pods Manifest.lock */,
+				D74F81F725066D610021ABB0 /* Start Packager */,
+				D74F81F825066D610021ABB0 /* Sources */,
+				D74F820025066D610021ABB0 /* Frameworks */,
+				D74F820225066D610021ABB0 /* Resources */,
+				D74F821125066D610021ABB0 /* Bundle React Native code and images */,
+				A24E441E28C11B92824566B1 /* [CP] Copy Pods Resources */,
+				B34561CC388DEA91DF218419 /* [CP] Embed Pods Frameworks */,
+				D7318CE825DBAD6500F81E2A /* Run Script */,
+				D761BD0728A6540200DF891F /* Embed Frameworks */,
+				D7802BD828C206E40088FF97 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7802BD328C206E40088FF97 /* PBXTargetDependency */,
+			);
+			name = Foodhub;
+			productName = CustomerApp;
+			productReference = D74F821A25066D610021ABB0 /* Foodhub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7802BCC28C206E40088FF97 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7802BD528C206E40088FF97 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				A316845DC96BCF847D0BD179 /* [CP] Check Pods Manifest.lock */,
+				D7802BC928C206E40088FF97 /* Sources */,
+				D7802BCA28C206E40088FF97 /* Frameworks */,
+				D7802BCB28C206E40088FF97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = D7802BCD28C206E40088FF97 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = T635W7G5LM;
+						LastSwiftMigration = 1140;
+						ProvisioningStyle = Manual;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+					D72E196E259874DC00FB0938 = {
+						DevelopmentTeam = T635W7G5LM;
+						ProvisioningStyle = Manual;
+					};
+					D74F81F525066D610021ABB0 = {
+						DevelopmentTeam = T635W7G5LM;
+						ProvisioningStyle = Manual;
+					};
+					D7802BCC28C206E40088FF97 = {
+						CreatedOnToolsVersion = 13.1;
+						DevelopmentTeam = T635W7G5LM;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CustomerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* CustomerApp */,
+				00E356ED1AD99517003FC87E /* CustomerAppTests */,
+				2D02E47A1E0B4A5D006451C7 /* CustomerApp-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* CustomerApp-tvOSTests */,
+				D74F81F525066D610021ABB0 /* Foodhub */,
+				D72E196E259874DC00FB0938 /* FranchiseApp */,
+				D7802BCC28C206E40088FF97 /* NotificationService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D9AA77241A505B00349C6B /* icomoon.ttf in Resources */,
+				D79B34C128D849D600995B2C /* Lato-Light.ttf in Resources */,
+				D7E6BF0A250FA7C200131DD6 /* GoogleService-Info.plist in Resources */,
+				D774362D28A652D600BF9399 /* Lato-BoldItalic.ttf in Resources */,
+				D774363028A652D600BF9399 /* Lato-Regular.ttf in Resources */,
+				D774364728A6578700BF9399 /* Lato-Semibold.ttf in Resources */,
+				D774362B28A652D600BF9399 /* Lato-Light.ttf in Resources */,
+				D77C87EB24AA7A0F00FAF12C /* AirMaps in Resources */,
+				D774363128A652D600BF9399 /* Lato-Bold.ttf in Resources */,
+				D774362C28A652D600BF9399 /* Lato-Thin.ttf in Resources */,
+				D7D9AA7A241A505B00349C6B /* icomoon.eot in Resources */,
+				D7FC70AC270BD7BF003EE134 /* fh_splash_bg.png in Resources */,
+				D774362728A652CD00BF9399 /* Lato-Black.ttf in Resources */,
+				D7D9AA7B241A505B00349C6B /* icomoon.svg in Resources */,
+				D79B34C428D849D600995B2C /* Lato-Regular.ttf in Resources */,
+				D77C87EA24AA7A0F00FAF12C /* AirGoogleMaps in Resources */,
+				D79B34B228D849D600995B2C /* Lato-Semibold.ttf in Resources */,
+				D7FC6B1D26493E4F00C8E3BE /* AppCenter-Config.plist in Resources */,
+				D774362E28A652D600BF9399 /* Lato-Italic.ttf in Resources */,
+				D7FC70AD270BD7C9003EE134 /* splash_screen.json in Resources */,
+				D76A59CD28C220ED004CF0BE /* moengage.plist in Resources */,
+				D774362A28A652D600BF9399 /* Lato-LightItalic.ttf in Resources */,
+				D774362F28A652D600BF9399 /* Lato-BlackItalic.ttf in Resources */,
+				D7AD893B261F5BB900E57D9E /* Localizable.strings in Resources */,
+				D774364428A6578700BF9399 /* Lato-Medium.ttf in Resources */,
+				D7D9AA7D241A505B00349C6B /* icomoon.woff in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E197A259874DC00FB0938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BEF82D25A2CF1900A6FCFD /* Images.xcassets in Resources */,
+				D774363C28A652D700BF9399 /* Lato-Thin.ttf in Resources */,
+				D774363E28A652D700BF9399 /* Lato-Italic.ttf in Resources */,
+				D7C6FD502599137100A1012A /* GoogleService-Info.plist in Resources */,
+				D774363F28A652D700BF9399 /* Lato-BlackItalic.ttf in Resources */,
+				D774363D28A652D700BF9399 /* Lato-BoldItalic.ttf in Resources */,
+				D72E197C259874DC00FB0938 /* icomoon.ttf in Resources */,
+				D79B34C628D849D600995B2C /* Lato-Regular.ttf in Resources */,
+				D79B34B728D849D600995B2C /* Lato-BoldItalic.ttf in Resources */,
+				D72E19A02598863200FB0938 /* FranchiseInfo.plist in Resources */,
+				D7FC6B1926493E4F00C8E3BE /* AppCenter-Config.plist in Resources */,
+				D79B34B428D849D600995B2C /* Lato-Semibold.ttf in Resources */,
+				D79B34CC28D849D600995B2C /* Lato-Bold.ttf in Resources */,
+				D72E197E259874DC00FB0938 /* AirMaps in Resources */,
+				D774364028A652D700BF9399 /* Lato-Regular.ttf in Resources */,
+				D774363B28A652D700BF9399 /* Lato-Light.ttf in Resources */,
+				D774362928A652CF00BF9399 /* Lato-Black.ttf in Resources */,
+				D7FC70A8270BD090003EE134 /* fh_splash_bg.png in Resources */,
+				D774363A28A652D700BF9399 /* Lato-LightItalic.ttf in Resources */,
+				D72E1981259874DC00FB0938 /* icomoon.eot in Resources */,
+				D79B34BA28D849D600995B2C /* Lato-LightItalic.ttf in Resources */,
+				D72E199D2598821300FB0938 /* FranchiseLaunchScreen.xib in Resources */,
+				D7FC70A9270BD096003EE134 /* splash_screen.json in Resources */,
+				D79B34C928D849D600995B2C /* Lato-Thin.ttf in Resources */,
+				D7AD893A261F5BB800E57D9E /* Localizable.strings in Resources */,
+				D774364128A652D700BF9399 /* Lato-Bold.ttf in Resources */,
+				D72E1983259874DC00FB0938 /* icomoon.svg in Resources */,
+				D774364628A6578700BF9399 /* Lato-Medium.ttf in Resources */,
+				D774364928A6578700BF9399 /* Lato-Semibold.ttf in Resources */,
+				D76A59CF28C220ED004CF0BE /* moengage.plist in Resources */,
+				D72E1984259874DC00FB0938 /* AirGoogleMaps in Resources */,
+				D72E1986259874DC00FB0938 /* icomoon.woff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F820225066D610021ABB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D774363428A652D700BF9399 /* Lato-Thin.ttf in Resources */,
+				D774363628A652D700BF9399 /* Lato-Italic.ttf in Resources */,
+				D741850C27AD0CE0003F31B3 /* FoodhubInfo.plist in Resources */,
+				D74F820525066D610021ABB0 /* icomoon.ttf in Resources */,
+				D774363728A652D700BF9399 /* Lato-BlackItalic.ttf in Resources */,
+				D774363528A652D700BF9399 /* Lato-BoldItalic.ttf in Resources */,
+				D74F820625066D610021ABB0 /* AirMaps in Resources */,
+				D74F821E25067A870021ABB0 /* FoodhubLaunchScreen.xib in Resources */,
+				D76A59CE28C220ED004CF0BE /* moengage.plist in Resources */,
+				D774363828A652D700BF9399 /* Lato-Regular.ttf in Resources */,
+				D774363328A652D700BF9399 /* Lato-Light.ttf in Resources */,
+				D774362828A652CE00BF9399 /* Lato-Black.ttf in Resources */,
+				D74F820925066D610021ABB0 /* icomoon.eot in Resources */,
+				D79B34D128D849D600995B2C /* Lato-Black.ttf in Resources */,
+				D74F820A25066D610021ABB0 /* icomoon.svg in Resources */,
+				D79B34B628D849D600995B2C /* Lato-BoldItalic.ttf in Resources */,
+				D79B34B928D849D600995B2C /* Lato-LightItalic.ttf in Resources */,
+				D74F820B25066D610021ABB0 /* AirGoogleMaps in Resources */,
+				D774363228A652D700BF9399 /* Lato-LightItalic.ttf in Resources */,
+				D7AD8935261F550600E57D9E /* Localizable.strings in Resources */,
+				D7046F8C26F9BFB100B0FB43 /* splash_screen.json in Resources */,
+				D79B34B328D849D600995B2C /* Lato-Semibold.ttf in Resources */,
+				D741850E27AD0CF6003F31B3 /* MobilistenConfiguration.plist in Resources */,
+				D774363928A652D700BF9399 /* Lato-Bold.ttf in Resources */,
+				D780665D270ACF480045A5B0 /* fh_splash_bg.png in Resources */,
+				D7FC6B1B26493E4F00C8E3BE /* AppCenter-Config.plist in Resources */,
+				D774364528A6578700BF9399 /* Lato-Medium.ttf in Resources */,
+				D774364828A6578700BF9399 /* Lato-Semibold.ttf in Resources */,
+				D74F820D25066D610021ABB0 /* icomoon.woff in Resources */,
+				D74F820F25066D610021ABB0 /* Images.xcassets in Resources */,
+				D7E6BF09250FA7C200131DD6 /* GoogleService-Info.plist in Resources */,
+				D79B34C528D849D600995B2C /* Lato-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7802BCB28C206E40088FF97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76A59D028C220ED004CF0BE /* moengage.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		03B66CF056D262A62C48D9BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13160D6A3AC689C9633F9E28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonPods-CustomerApp-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2F26A15D6E992BB549A2F476 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-CustomerApp/Pods-CommonPods-CustomerApp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingDisplayResources.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/icons.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/resources.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/CountriesList.json",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JudoKit-iOS/JudoKit_iOS.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZappMerchantLib/ZappMerchantLibResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingDisplayResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icons.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/resources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CountriesList.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JudoKit_iOS.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZappMerchantLibResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-CustomerApp/Pods-CommonPods-CustomerApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BDFC3E87C828275B6D3DDFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-CustomerApp-tvOS/Pods-CommonPods-CustomerApp-tvOS-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Bugsee/Bugsee.framework/Bugsee",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/DeviceDNA/DeviceDNA.framework/DeviceDNA",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/FBSDKCoreKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKGamingServicesKit/FBSDKGamingServicesKit.framework/FBSDKGamingServicesKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/FBSDKLoginKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKShareKit/FBSDKShareKit.framework/FBSDKShareKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Judo3DS2_iOS/Judo3DS2_iOS.framework/Judo3DS2_iOS",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MORichNotification/MORichNotification.framework/MORichNotification",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngage.framework/MoEngage",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngageCore.framework/MoEngageCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MOAnalytics.framework/MOAnalytics",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MOMessaging.framework/MOMessaging",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngageInApp/MOInApp.framework/MOInApp",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Mobilisten/Mobilisten.framework/Mobilisten",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RNInstabug/Instabug.framework/Instabug",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZDThemeKit/ZDThemeKit.framework/ZDThemeKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalAPIKit/ZohoDeskPortalAPIKit.framework/ZohoDeskPortalAPIKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCommunity/ZohoDeskPortalCommunity.framework/ZohoDeskPortalCommunity",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalConfiguration/ZohoDeskPortalConfiguration.framework/ZohoDeskPortalConfiguration",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCore/ZohoDeskPortalCore.framework/ZohoDeskPortalCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalKB/ZohoDeskPortalKB.framework/ZohoDeskPortalKB",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalTicket/ZohoDeskPortalTicket.framework/ZohoDeskPortalTicket",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsee.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceDNA.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBAEMKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit_Basics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKGamingServicesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Judo3DS2_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MORichNotification.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngageCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOInApp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mobilisten.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instabug.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZDThemeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalAPIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalCommunity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalConfiguration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalKB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalTicket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-CustomerApp-tvOS/Pods-CommonPods-CustomerApp-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41D72C2381A97258CA9EC94F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-CustomerApp/Pods-CommonPods-CustomerApp-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Bugsee/Bugsee.framework/Bugsee",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/DeviceDNA/DeviceDNA.framework/DeviceDNA",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/FBSDKCoreKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKGamingServicesKit/FBSDKGamingServicesKit.framework/FBSDKGamingServicesKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/FBSDKLoginKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKShareKit/FBSDKShareKit.framework/FBSDKShareKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Judo3DS2_iOS/Judo3DS2_iOS.framework/Judo3DS2_iOS",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MORichNotification/MORichNotification.framework/MORichNotification",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngage.framework/MoEngage",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngageCore.framework/MoEngageCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MOAnalytics.framework/MOAnalytics",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MOMessaging.framework/MOMessaging",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngageInApp/MOInApp.framework/MOInApp",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Mobilisten/Mobilisten.framework/Mobilisten",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RNInstabug/Instabug.framework/Instabug",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZDThemeKit/ZDThemeKit.framework/ZDThemeKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalAPIKit/ZohoDeskPortalAPIKit.framework/ZohoDeskPortalAPIKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCommunity/ZohoDeskPortalCommunity.framework/ZohoDeskPortalCommunity",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalConfiguration/ZohoDeskPortalConfiguration.framework/ZohoDeskPortalConfiguration",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCore/ZohoDeskPortalCore.framework/ZohoDeskPortalCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalKB/ZohoDeskPortalKB.framework/ZohoDeskPortalKB",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalTicket/ZohoDeskPortalTicket.framework/ZohoDeskPortalTicket",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsee.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceDNA.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBAEMKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit_Basics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKGamingServicesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Judo3DS2_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MORichNotification.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngageCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOInApp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mobilisten.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instabug.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZDThemeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalAPIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalCommunity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalConfiguration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalKB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalTicket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-CustomerApp/Pods-CommonPods-CustomerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7610998BA91DD51E32B19992 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-CustomerApp-tvOS/Pods-CommonPods-CustomerApp-tvOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingDisplayResources.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/icons.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/resources.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/CountriesList.json",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JudoKit-iOS/JudoKit_iOS.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZappMerchantLib/ZappMerchantLibResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingDisplayResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icons.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/resources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CountriesList.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JudoKit_iOS.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZappMerchantLibResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-CustomerApp-tvOS/Pods-CommonPods-CustomerApp-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A7563FFE285A79E2C40D66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomerApp-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A24E441E28C11B92824566B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-Foodhub/Pods-CommonPods-Foodhub-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingDisplayResources.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/icons.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/resources.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/CountriesList.json",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JudoKit-iOS/JudoKit_iOS.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZappMerchantLib/ZappMerchantLibResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingDisplayResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icons.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/resources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CountriesList.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JudoKit_iOS.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZappMerchantLibResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-Foodhub/Pods-CommonPods-Foodhub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A316845DC96BCF847D0BD179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B34561CC388DEA91DF218419 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-Foodhub/Pods-CommonPods-Foodhub-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Bugsee/Bugsee.framework/Bugsee",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/DeviceDNA/DeviceDNA.framework/DeviceDNA",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/FBSDKCoreKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKGamingServicesKit/FBSDKGamingServicesKit.framework/FBSDKGamingServicesKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/FBSDKLoginKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKShareKit/FBSDKShareKit.framework/FBSDKShareKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Judo3DS2_iOS/Judo3DS2_iOS.framework/Judo3DS2_iOS",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MORichNotification/MORichNotification.framework/MORichNotification",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngage.framework/MoEngage",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngageCore.framework/MoEngageCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MOAnalytics.framework/MOAnalytics",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MOMessaging.framework/MOMessaging",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngageInApp/MOInApp.framework/MOInApp",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Mobilisten/Mobilisten.framework/Mobilisten",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RNInstabug/Instabug.framework/Instabug",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZDThemeKit/ZDThemeKit.framework/ZDThemeKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalAPIKit/ZohoDeskPortalAPIKit.framework/ZohoDeskPortalAPIKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCommunity/ZohoDeskPortalCommunity.framework/ZohoDeskPortalCommunity",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalConfiguration/ZohoDeskPortalConfiguration.framework/ZohoDeskPortalConfiguration",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCore/ZohoDeskPortalCore.framework/ZohoDeskPortalCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalKB/ZohoDeskPortalKB.framework/ZohoDeskPortalKB",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalTicket/ZohoDeskPortalTicket.framework/ZohoDeskPortalTicket",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsee.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceDNA.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBAEMKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit_Basics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKGamingServicesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Judo3DS2_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MORichNotification.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngageCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOInApp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mobilisten.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instabug.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZDThemeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalAPIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalCommunity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalConfiguration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalKB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalTicket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-Foodhub/Pods-CommonPods-Foodhub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72E196F259874DC00FB0938 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonPods-FranchiseApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72E1970259874DC00FB0938 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D72E1989259874DC00FB0938 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		D72E198A259874DC00FB0938 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-FranchiseApp/Pods-CommonPods-FranchiseApp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingDisplayResources.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/icons.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/resources.bundle",
+				"${PODS_ROOT}/JudoKit-iOS/Resources/CountriesList.json",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JudoKit-iOS/JudoKit_iOS.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZappMerchantLib/ZappMerchantLibResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingDisplayResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icons.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/resources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CountriesList.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JudoKit_iOS.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZappMerchantLibResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-FranchiseApp/Pods-CommonPods-FranchiseApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72E198C259874DC00FB0938 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-FranchiseApp/Pods-CommonPods-FranchiseApp-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Bugsee/Bugsee.framework/Bugsee",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/DeviceDNA/DeviceDNA.framework/DeviceDNA",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/FBSDKCoreKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKGamingServicesKit/FBSDKGamingServicesKit.framework/FBSDKGamingServicesKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/FBSDKLoginKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKShareKit/FBSDKShareKit.framework/FBSDKShareKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Judo3DS2_iOS/Judo3DS2_iOS.framework/Judo3DS2_iOS",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MORichNotification/MORichNotification.framework/MORichNotification",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngage.framework/MoEngage",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngageCore.framework/MoEngageCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MOAnalytics.framework/MOAnalytics",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MOMessaging.framework/MOMessaging",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngageInApp/MOInApp.framework/MOInApp",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Mobilisten/Mobilisten.framework/Mobilisten",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RNInstabug/Instabug.framework/Instabug",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZDThemeKit/ZDThemeKit.framework/ZDThemeKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalAPIKit/ZohoDeskPortalAPIKit.framework/ZohoDeskPortalAPIKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCommunity/ZohoDeskPortalCommunity.framework/ZohoDeskPortalCommunity",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalConfiguration/ZohoDeskPortalConfiguration.framework/ZohoDeskPortalConfiguration",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCore/ZohoDeskPortalCore.framework/ZohoDeskPortalCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalKB/ZohoDeskPortalKB.framework/ZohoDeskPortalKB",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalTicket/ZohoDeskPortalTicket.framework/ZohoDeskPortalTicket",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsee.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceDNA.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBAEMKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit_Basics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKGamingServicesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Judo3DS2_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MORichNotification.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngageCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOInApp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mobilisten.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instabug.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZDThemeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalAPIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalCommunity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalConfiguration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalKB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalTicket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-FranchiseApp/Pods-CommonPods-FranchiseApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7318CE825DBAD6500F81E2A /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/plist_build_info.sh\n";
+		};
+		D74F81F625066D610021ABB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonPods-Foodhub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74F81F725066D610021ABB0 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D74F821125066D610021ABB0 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nexport NODE_ARGS=--max-old-space-size=8192\nexport NODE_OPTIONS=--max-old-space-size=8192\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		D7B69FA725F0A70800498FFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/plist_build_info.sh\n";
+		};
+		D7B69FA825F0A72700498FFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/plist_build_info.sh\n";
+		};
+		EF14B19716774602530F7C89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonPods-CustomerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* CustomerAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014D7261248E6DD50000D54D /* ZohoSupport.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				D7E021C026B2851A00BB1937 /* BrazeSupport.m in Sources */,
+				D7AD8937261F5BB100E57D9E /* LocalizationHelper.swift in Sources */,
+				D77A80BA28FD73E900370B2A /* ApplePayToken.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				014D725F248E6D800000D54D /* ZohoSupport.swift in Sources */,
+				6989792E25DCE8B300A3F33E /* T2SNativeModule.m in Sources */,
+				D7FC70AB270BD7B6003EE134 /* Dynamic.swift in Sources */,
+				6989793225DCE8C700A3F33E /* T2SNativeModule.swift in Sources */,
+				D7205F1628FECDFA00915BB5 /* ApplePayToken.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* CustomerAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E1971259874DC00FB0938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E1972259874DC00FB0938 /* ZohoSupport.m in Sources */,
+				D72E1973259874DC00FB0938 /* AppDelegate.m in Sources */,
+				D7E021C226B2851A00BB1937 /* BrazeSupport.m in Sources */,
+				D7AD8939261F5BB100E57D9E /* LocalizationHelper.swift in Sources */,
+				D77A80BC28FD73E900370B2A /* ApplePayToken.m in Sources */,
+				D72E1974259874DC00FB0938 /* main.m in Sources */,
+				D72E1975259874DC00FB0938 /* ZohoSupport.swift in Sources */,
+				6989793025DCE8B300A3F33E /* T2SNativeModule.m in Sources */,
+				D7FC70AA270BD0A2003EE134 /* Dynamic.swift in Sources */,
+				6989793425DCE8C700A3F33E /* T2SNativeModule.swift in Sources */,
+				D7205F1828FECDFA00915BB5 /* ApplePayToken.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F81F825066D610021ABB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7046F8E26F9D0C900B0FB43 /* Dynamic.swift in Sources */,
+				D7AD8938261F5BB100E57D9E /* LocalizationHelper.swift in Sources */,
+				D7D52E0F25370ECC00B60F31 /* FHMigration.swift in Sources */,
+				D74F81F925066D610021ABB0 /* ZohoSupport.m in Sources */,
+				D77A80BB28FD73E900370B2A /* ApplePayToken.m in Sources */,
+				6989793325DCE8C700A3F33E /* T2SNativeModule.swift in Sources */,
+				D71BD502250E154C001D2761 /* AppDelegate.m in Sources */,
+				D74F81FC25066D610021ABB0 /* main.m in Sources */,
+				D7E021C126B2851A00BB1937 /* BrazeSupport.m in Sources */,
+				6989792F25DCE8B300A3F33E /* T2SNativeModule.m in Sources */,
+				D74F81FE25066D610021ABB0 /* ZohoSupport.swift in Sources */,
+				D7D52E1125370F0700B60F31 /* FHMigration.m in Sources */,
+				D7205F1728FECDFA00915BB5 /* ApplePayToken.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7802BC928C206E40088FF97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7802BD028C206E40088FF97 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* CustomerApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* CustomerApp-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+		D7802BD328C206E40088FF97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7802BCC28C206E40088FF97 /* NotificationService */;
+			targetProxy = D7802BD228C206E40088FF97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = CustomerApp;
+			sourceTree = "<group>";
+		};
+		D72E199B2598821300FB0938 /* FranchiseLaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72E199C2598821300FB0938 /* Base */,
+			);
+			name = FranchiseLaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D74F821C25067A860021ABB0 /* FoodhubLaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74F821D25067A860021ABB0 /* Base */,
+			);
+			name = FoodhubLaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D7AD8933261F53DB00E57D9E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7AD8932261F53DB00E57D9E /* en */,
+				D7AD8934261F542C00E57D9E /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9592B98AEF97A22BFB4290 /* Pods-CustomerAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomerApp.app/CustomerApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB83F715691F1A24A8750D6 /* Pods-CustomerAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = CustomerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomerApp.app/CustomerApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466DE2B39B80DC5BC660A0D0 /* Pods-CommonPods-CustomerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CustomerApp/CustomerApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development: Suresh R (LYSL8W5A9U)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T635W7G5LM;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+					"CUSTOMERAPP=1",
+				);
+				INFOPLIST_FILE = CustomerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 10.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/SSZipArchive/SSZipArchive.modulemap\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2s.t2scustomerapp;
+				PRODUCT_NAME = CustomerApp;
+				PROVISIONING_PROFILE_SPECIFIER = CA_Development;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomerApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F61779B5C7D5DD902AA3E7 /* Pods-CommonPods-CustomerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CustomerApp/CustomerApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution: FOOD HUB LIMITED (T635W7G5LM)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T635W7G5LM;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+					"CUSTOMERAPP=1",
+				);
+				INFOPLIST_FILE = CustomerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 10.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/SSZipArchive/SSZipArchive.modulemap\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2s.t2scustomerapp;
+				PRODUCT_NAME = CustomerApp;
+				PROVISIONING_PROFILE_SPECIFIER = CA_Adhoc_Profile;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomerApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CEB641005876A31ED86700 /* Pods-CommonPods-CustomerApp-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "CustomerApp-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CustomerApp-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8CD6FF9C375E08B2242041 /* Pods-CommonPods-CustomerApp-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "CustomerApp-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CustomerApp-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6516E011EFE2D364BD2C637 /* Pods-CustomerApp-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "CustomerApp-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CustomerApp-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomerApp-tvOS.app/CustomerApp-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0191882A9A522389B4C84A /* Pods-CustomerApp-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "CustomerApp-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CustomerApp-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomerApp-tvOS.app/CustomerApp-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72E1991259874DC00FB0938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBE4F7AA945F17BAA51B8E8 /* Pods-CommonPods-FranchiseApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = FranchiseAppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CustomerApp/FranchiseApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = T635W7G5LM;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+					"FRANCHISEAPP=1",
+				);
+				INFOPLIST_FILE = CustomerApp/FranchiseInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 10.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/SSZipArchive/SSZipArchive.modulemap\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanethatech.eatappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EA_Development;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomerApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D72E1992259874DC00FB0938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A96E5F262F5D3C13969195C /* Pods-CommonPods-FranchiseApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = FranchiseAppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CustomerApp/FranchiseApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T635W7G5LM;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+					"FRANCHISEAPP=1",
+				);
+				INFOPLIST_FILE = CustomerApp/FranchiseInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 10.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/SSZipArchive/SSZipArchive.modulemap\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanethatech.eatappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EA_Adhoc;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomerApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		D74F821825066D610021ABB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1157F93D043BB548C3A96F3 /* Pods-CommonPods-Foodhub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = FoodhubAppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CustomerApp/Foodhub.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T635W7G5LM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+					"FOODHUB=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AppAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/BVLinearGradient\"",
+					"\"${PODS_ROOT}/Headers/Public/Base64\"",
+					"\"${PODS_ROOT}/Headers/Public/CodePush\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKCoreKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKLoginKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKShareKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalyticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMAppAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/Google-Maps-iOS-Utils\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/JWT\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAlways\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationWhenInUse\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNAppleAuthentication\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCMaskedView\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPushNotificationIOS\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDateTimePicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGoogleSignin\"",
+					"\"${PODS_ROOT}/Headers/Public/RNPermissions\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactNativeLocalization\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-config\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-fbsdk\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geocoder\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geolocation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-google-maps\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-maps\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-netinfo\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-settings\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-splash-screen\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-version-number\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-webview\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+				);
+				INFOPLIST_FILE = CustomerApp/FoodhubInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Base64\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CodePush\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JWT\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAlways\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationWhenInUse\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGoogleSignin\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTActionSheet\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-google-maps\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-maps\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-settings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
+				);
+				MARKETING_VERSION = 10.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/SSZipArchive/SSZipArchive.modulemap\" -FOODHUB";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2s.foodhub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = FH_Development;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = FOODHUB;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomerApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/libwebp/src";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D74F821925066D610021ABB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B551CF5C7AF2006801D778DB /* Pods-CommonPods-Foodhub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = FoodhubAppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FoodhubRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T635W7G5LM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+					"FOODHUB=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AppAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/BVLinearGradient\"",
+					"\"${PODS_ROOT}/Headers/Public/Base64\"",
+					"\"${PODS_ROOT}/Headers/Public/CodePush\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKCoreKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKLoginKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKShareKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalyticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMAppAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/Google-Maps-iOS-Utils\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/JWT\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAlways\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationWhenInUse\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNAppleAuthentication\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCMaskedView\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPushNotificationIOS\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDateTimePicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGoogleSignin\"",
+					"\"${PODS_ROOT}/Headers/Public/RNPermissions\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactNativeLocalization\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-config\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-fbsdk\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geocoder\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geolocation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-google-maps\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-maps\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-netinfo\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-settings\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-splash-screen\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-version-number\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-webview\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+				);
+				INFOPLIST_FILE = CustomerApp/FoodhubInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Base64\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CodePush\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JWT\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAlways\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationWhenInUse\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGoogleSignin\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTActionSheet\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-google-maps\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-maps\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-settings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
+				);
+				MARKETING_VERSION = 10.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/SSZipArchive/SSZipArchive.modulemap\" -FOODHUB";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2s.foodhub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = FH_Ad_Hoc;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = FOODHUB;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomerApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/libwebp/src";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		D7802BD628C206E40088FF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911FB210FAEDCBA4621F3560 /* Pods-NotificationService.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T635W7G5LM;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Facebook. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2s.foodhub.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Foodhub NotificationService development";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7802BD728C206E40088FF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0041B98FF790B59F6C37A903 /* Pods-NotificationService.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationServiceRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T635W7G5LM;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Facebook. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2s.foodhub.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Foodhub NotificationService App Store";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CustomerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CustomerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CustomerApp-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CustomerApp-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CustomerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72E1990259874DC00FB0938 /* Build configuration list for PBXNativeTarget "FranchiseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E1991259874DC00FB0938 /* Debug */,
+				D72E1992259874DC00FB0938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74F821725066D610021ABB0 /* Build configuration list for PBXNativeTarget "Foodhub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F821825066D610021ABB0 /* Debug */,
+				D74F821925066D610021ABB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7802BD528C206E40088FF97 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7802BD628C206E40088FF97 /* Debug */,
+				D7802BD728C206E40088FF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

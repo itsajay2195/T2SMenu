@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "629413080520",
+    "project_id": "eat-appy-production",
+    "storage_bucket": "eat-appy-production.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629413080520:android:3addaf01e1d1c0b91764fd",
+        "android_client_info": {
+          "package_name": "com.shanethatech.eatappy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629413080520-1feoo3pvn3eikocshdro0muvlkqgar2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shanethatech.eatappy",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "629413080520-1p7ivaub0ie7f8112dkcs4mqp359rb4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shanethatech.eatappy",
+            "certificate_hash": "9591b041ded122fa39e1963001957b6ecafdca92"
+          }
+        },
+        {
+          "client_id": "629413080520-m8em4c6qghll0kjdnhgvrjlr3v4r7u67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-CafDHGBMMCXwYFut8rVmMJshtobMg_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629413080520-m8em4c6qghll0kjdnhgvrjlr3v4r7u67.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "629413080520-mbqioq27i4p3633hn13j977e0ril6ssp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shanethatech.eatappy",
+                "app_store_id": "1326474243"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+export const ROUTER_LIST_IDENTIFIER = {
+    UK_TAKEAWAY_LOCATION_PAGE: 'location',
+    UK_TAKEAWAY_LIST_PAGE: 'list',
+    TAKEAWAY_INFO_PAGE: 'info',
+    TAKEAWAY_MENU_PAGE: 'ordernow',
+    TAKEAWAY_REVIEWS_PAGE: 'reviews',
+    FOODHUB_TOTAL_SAVINGS_PAGE: 'totalSavings',
+    FH_TERMS_AND_USE: 'terms-and-use',
+    FH_TERMS_AND_CONDITION: 'terms-and-condition',
+    FH_PRIVACY: 'privacy',
+    FH_ABOUT_US: 'about-us',
+    FH_THRID_PART_OFFER: 'thirdpartyoffer',
+    FH_REFERRAL: 'referral',
+    FH_ALLERGY: 'allergy',
+    PAY_BY_LINK: 'paybylink',
+    FH_NOTIFICATION: 'notification',
+    FH_SIGN_UP: 'sign_up',
+    CA_CONTACT_US: 'contact-us',
+    CA_REVIEW: 'review',
+    CA_TAKEAWAY_MENU_PAGE: 'order-now',
+    FH_BASKET: 'basket',
+    TABLE_BOOKING: 'book-table'
+};

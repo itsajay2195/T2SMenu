@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  CustomerApp
+
+  Created by dev on 08/04/21.
+  Copyright © 2021 Facebook. All rights reserved.
+*/
+
+"ios.ZDKHelpCenter.articleAttachmentsError" = "Failed to fetch attachments";
+"ios.ZDKHelpCenter.helpCenterOverview.see_all.singletitle" = "See 1 article";
+"ios.ZDKHelpCenter.helpCenterOverview.see_all.title" = "See all %lu articles";
+"ios.ZDKHelpCenter.helpCenterOverview.title" = "Help";
+"ios.ZDKHelpCenter.noArticles.title" = "No articles found";
+"ios.ZDKHelpCenter.search.noResults.title" = "No results for";
+"ios.ZDKHelpCenter.support.contactError" = "Unable to connect";
+"ios.ZDKHelpCenter.support.contactSupport" = "Contact us";
+"ios.ZDKHelpCenter.toastRetryButton" = "Retry";
+"ios.ZDKRequests.commentList.error" = "Failed to load comments";
+"ios.ZDKRequests.connectionError" = "No connection";
+"ios.ZDKRequests.conversations.back.button" = "Back";
+"ios.ZDKRequests.createRequest.attachments.confirm" = "OK";
+"ios.ZDKRequests.createRequest.attachments.download" = "Downloading";
+"ios.ZDKRequests.createRequest.attachments.downloading" = "File attachment is still downloading. Please wait.";
+"ios.ZDKRequests.createRequest.cancel.button" = "Cancel";
+"ios.ZDKRequests.createRequest.cellError" = "Message failed to send. Tap to retry";
+"ios.ZDKRequests.createRequest.description.placeholder" = "Description";
+"ios.ZDKRequests.createRequest.emailfield.placeholder" = "Email";
+"ios.ZDKRequests.createRequest.error.request" = "Ticket failed to send";
+"ios.ZDKRequests.createRequest.failed.closed" = "This conversation has been closed.";
+"ios.ZDKRequests.createRequest.failed.delete" = "Delete";
+"ios.ZDKRequests.createRequest.failed.retry" = "Retry";
+"ios.ZDKRequests.createRequest.input.new" = "Write a message...";
+"ios.ZDKRequests.createRequest.input.reply" = "Reply...";
+"ios.ZDKRequests.createRequest.input.unsent.body" = "Going back will delete your message.\nAre you sure you want to delete it?";
+"ios.ZDKRequests.createRequest.input.unsent.title" = "Message not sent";
+"ios.ZDKRequests.createRequest.leaveAMessage.title" = "Leave a message";
+"ios.ZDKRequests.createRequest.message.sent" = "Sent";
+"ios.ZDKRequests.createRequest.messages.today" = "Today";
+"ios.ZDKRequests.createRequest.messages.yesterday" = "Yesterday";
+"ios.ZDKRequests.createRequest.name.placeholder" = "Name";
+"ios.ZDKRequests.createRequest.sending" = "Sending...";
+"ios.ZDKRequests.createRequest.submit.button" = "Send";
+"ios.ZDKRequests.createRequest.title" = "Contact us";
+"ios.ZDKRequests.leftBarButton.title_cancel" = "Cancel";
+"ios.ZDKRequests.requestList.cell.closed" = "Ticket Closed";
+"ios.ZDKRequests.requestList.cell.failed" = "Message failed";
+"ios.ZDKRequests.requestList.cell.me" = "Me";
+"ios.ZDKRequests.requestList.cell.responders" = "Re:";
+"ios.ZDKRequests.requestList.cell.seperator" = ", ";
+"ios.ZDKRequests.requestList.error" = "Failed to get tickets";
+"ios.ZDKRequests.requestList.title" = "My Tickets";
+"ios.ZDKRequests.requestListEmpty.button" = "Start A Conversation";
+"ios.ZDKRequests.requestListEmpty.subtitle" = "Conversations started from this app will be visible here";
+"ios.ZDKRequests.rightBarButton.title.contact" = "Contact us";
+"ios.sdk.ZDKHelpCenter.article.voting.title" = "Was this article helpful?";
+"ios.sdk.ZDKRequests.createRequest.attachment.fileTooBig" = "Max attachment size is %@mb";
+"ios.sdk.ZDKRequests.leftBarButton.close.title" = "Close";
+"ios.sdk.ZDKRequests.pushNotification.dismiss.title" = "Dismiss";
+"ios.sdk.ZDKRequests.pushNotification.open.title" = "Open";
+"ios.SupportEngine.greeting.message" = "Type a message and I will find someone who can help you.";
+"ios.SupportEngine.messageSend.errorMessage" = "Something went wrong and I wasn't able to send your message. Please try again later.";
+"ios.SupportEngine.messageSend.retry.button" = "Retry";
+"ios.SupportEngine.requestCreated.conversationsDisabled.message" = "Thank you. A message has been sent to the team. If a reply is needed, they will contact you on %@.";
+"ios.SupportEngine.requestCreated.conversationsEnabledMessage" = "Thank you. A message has been sent to the team. You can view this message and add additional details here:";
+"ios.SupportEngine.requestCreated.conversationsOff.message" = "Thank you. A message has been sent to the team. If a reply is needed, they will contact you by email.";
+"ios.SupportEngine.requestCreated.emailInvalid.message" = "Something isn't quite right with this address. Try re-entering it.";
+"ios.SupportEngine.requestCreated.emailPrompt.hint" = "Enter your email...";
+"ios.SupportEngine.requestCreated.emailPrompt.message" = "If a reply is needed, someone will contact you by email. What is your email address?";
+"ios.SupportEngine.requestCreated.emailValidationFailed.message" = "The email address you entered is incorrect. Enter a valid email address.";
+"ios.SupportEngine.requestCreated.requestList.button" = "View messages";

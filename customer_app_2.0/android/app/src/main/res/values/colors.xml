@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_dark">#000000</color>
+    <color name="zendesk_action_bar_bg">#5BAE75</color>
+    <color name="icsblue">#1C4951</color>
+    <color name="app_black">#000000</color>
+    <color name="primaryColor">#D82927</color>
+    <color name="trans">#00000000</color>
+    <color name="splashscreen_bg">#ffffff</color>
+    <color name="app_bg">#424242</color>
+    <color name="text_color">#c0c0c0</color>
+    <color name="white">#FFF</color>
+    <color name='splash_bg'>#D82927</color>
+</resources>

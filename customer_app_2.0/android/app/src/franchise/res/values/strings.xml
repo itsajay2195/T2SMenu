@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Eat Appy</string>
+    <string name="facebook_app_id">123717548363220</string>
+    <string name="facebook_client_token">ba92fea4aa1c4335b648b151bcbbb99a</string>
+    <string name="fb_login_protocol_scheme">fb413052619897849</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">f0hCf-psyL2sgUZtXAwu5OwDJvKv4kkDWmkQn</string>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">f0hCf-psyL2sgUZtXAwu5OwDJvKv4kkDWmkQn</string>
+    <string name="geo_api_key">AIzaSyAJE_HxBvfoD4ZxjFxJB-0m71N5zZMhOe8</string>
+</resources>

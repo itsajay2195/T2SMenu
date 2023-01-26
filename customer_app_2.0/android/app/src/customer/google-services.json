@@ -1,0 +1,103 @@
+{
+  "project_info": {
+    "project_number": "90187480738",
+    "firebase_url": "https://t2scustomerapp.firebaseio.com",
+    "project_id": "t2scustomerapp",
+    "storage_bucket": "t2scustomerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90187480738:android:787801fa4088ccaa",
+        "android_client_info": {
+          "package_name": "com.t2s.burslemspice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90187480738-n2ormrh2913dthmf2ig5nehuu8240a90.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.burslemspice",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "90187480738-vlkbrdadak3e8g3chqflv97rtb8i155h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.burslemspice",
+            "certificate_hash": "f7938c1e89cf40d20b8fb17ee952fee0017d71ab"
+          }
+        },
+        {
+          "client_id": "90187480738-b4v8482e3ukpn5mcer0thtrr1vn9j522.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.burslemspice",
+            "certificate_hash": "0fca76e367ac660872267fba093817b7929bc93a"
+          }
+        },
+        {
+          "client_id": "90187480738-t65bo5l2ejlqk7j2nhppg9f31iratjai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.burslemspice",
+            "certificate_hash": "f8e7d0387e4c66a0e4759166f2e7fa5998c496a4"
+          }
+        },
+        {
+          "client_id": "90187480738-3hshpc37dtj1dpburjfe4g64532s51qq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.burslemspice",
+            "certificate_hash": "6eab44fc0f29aefe139444c3529b53da0537e31e"
+          }
+        },
+        {
+          "client_id": "90187480738-bo413upm3iteeui2uebsunkb5j42t928.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.burslemspice",
+            "certificate_hash": "9976d3855389041793c6b67a095eab22b9e8403b"
+          }
+        },
+        {
+          "client_id": "90187480738-3m2gtjlv24d2sqashuupknbb8kgmq42t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.burslemspice",
+            "certificate_hash": "9e85dab4bef90385f48c0e0de46773db602952ea"
+          }
+        },
+        {
+          "client_id": "90187480738-rp77fkjt9s0dqlh4iif2um5v3bi3g3mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLx729DrkxWEPPNH7KQJWdXBtUVUc7YFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90187480738-5hlqpi54tngh8rvt969di7kdpnn4an0n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "90187480738-cts4qlasct4kvpijrrbe18jjldnuppd5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.t2s.t2scustomerapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

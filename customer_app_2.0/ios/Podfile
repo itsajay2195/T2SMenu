@@ -1,0 +1,77 @@
+platform :ios, '11.0'
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+abstract_target 'CommonPods' do
+ permissions_path = '../node_modules/react-native-permissions/ios'
+
+
+    # Common for CustomerApp and Foodhub
+    pod 'RNZohoSalesIQ', :path => '../node_modules/react-native-zohosalesiq-mobilisten/ios'
+    pod 'ZohoDeskPortalCore', '~> 2.0.8'
+
+    pod 'CodePush', :path => '../node_modules/react-native-code-push'
+
+    pod 'react-native-maps', path: '../node_modules/react-native-maps'
+    pod 'react-native-google-maps', path: '../node_modules/react-native-maps'  # Uncomment this line if you want to support GoogleMaps on iOS
+    pod 'GoogleMaps'  # Uncomment this line if you want to support GoogleMaps on iOS
+    pod 'Google-Maps-iOS-Utils' # Uncomment this line if you want to support GoogleMaps on iOS
+
+  #  pod 'ReactNativePermissions', :path => '../node_modules/react-native-permissions'
+    pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways.podspec"
+    pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse.podspec"
+    pod 'RNGoogleSignin', :path => '../node_modules/@react-native-community/google-signin'
+      config = use_native_modules!
+    use_react_native!(:path => config["reactNativePath"])
+    target 'Foodhub' do
+      #specific pods for Foodhub
+    end
+
+    target 'CustomerApp' do
+      #specific pods for CustomerApp
+
+    #  pod 'react-native-appboy-sdk', :path => '../node_modules/react-native-appboy-sdk'
+
+      pod 'ReactNativeMoEngage', :path => '../node_modules/react-native-moengage'
+
+      pod 'ReactNativeMoEngageInbox', :path => '../node_modules/react-native-moengage-inbox'
+
+      target 'CustomerAppTests' do
+        inherit! :search_paths
+        # Pods for testing
+      end
+    end
+
+    target 'FranchiseApp' do
+      #specific pods for FranchiseApp
+    end
+
+    target 'CustomerApp-tvOS' do
+      # Pods for CustomerApp-tvOS
+
+      target 'CustomerApp-tvOSTests' do
+        inherit! :search_paths
+        # Pods for testing
+      end
+
+    end
+
+    post_install do |installer|
+      installer.pods_project.targets.each do |target|
+
+        if target.name == 'react-native-google-maps'
+                  target.build_configurations.each do |config|
+                    config.build_settings['CLANG_ENABLE_MODULES'] = 'No'
+                  end
+                end
+                if target.name == "React"
+                  target.remove_from_project
+                end
+        end
+    end
+end
+
+target "NotificationService" do
+  pod 'MORichNotification'
+end
+

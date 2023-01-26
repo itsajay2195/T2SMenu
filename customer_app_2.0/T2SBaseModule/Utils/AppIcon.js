@@ -1,0 +1,22 @@
+export const AppIcon = {
+    TermsAndCondition: 'Terms--Conditions',
+    PrivacyPolicy: 'Privacy-Policy',
+    GDPRGuideLine: 'GDPR',
+    arrowRight: 'Arrow-Right',
+    savingsCalculator: 'Saving-Calculator',
+    smsScheduler: 'Sms-Scheduler',
+    couponsIcon: 'Coupons',
+    billingIcon: 'Billing',
+    tickIcon: 'Tick',
+    plus: 'Plus',
+    Arrow_Down: 'Arrow-Down',
+    Arrow_Up: 'Arrow-Up',
+    Calendar: 'Calendar',
+    Trash: 'Delete',
+    onlineBanking: 'www',
+    Discounts: 'Discounts',
+    pushNotification: 'Push-Notification',
+    Clock: 'Clock',
+    Close: 'Close',
+    Resync: 'Resync'
+};

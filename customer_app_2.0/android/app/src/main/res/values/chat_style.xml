@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base chat sdk theme. -->
+    <style name="ZopimChatTheme" parent="@style/AppTheme">
+        <!-- Customize chat theme here. -->
+        <item name="colorPrimary">@color/zendesk_action_bar_bg</item>
+        <item name="colorPrimaryDark">@color/zendesk_action_bar_bg</item>
+    </style>
+
+</resources>

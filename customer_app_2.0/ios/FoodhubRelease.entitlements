@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:foodhub.co.uk</string>
+		<string>applinks:foodhub.com</string>
+		<string>applinks:food-hub.nz</string>
+		<string>applinks:food-hub.ie</string>
+		<string>applinks:foodhub.com.mx</string>
+		<string>applinks:foodhub.com.au</string>
+		<string>applinks:foodhub.gt</string>
+	</array>
+	<key>com.apple.developer.in-app-payments</key>
+	<array>
+		<string>merchant.com.foodhub</string>
+		<string>merchant.com.foodhub.sandbox</string>
+		<string>merchant.com.foodhub.checkout</string>
+	</array>
+	<key>com.apple.developer.pass-type-identifiers</key>
+	<array>
+		<string>$(TeamIdentifierPrefix)*</string>
+	</array>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.t2s.foodhub.moengage</string>
+	</array>
+</dict>
+</plist>

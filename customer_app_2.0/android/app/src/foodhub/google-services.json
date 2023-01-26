@@ -1,0 +1,110 @@
+{
+  "project_info": {
+    "project_number": "373243727045",
+    "firebase_url": "https://foodhub-8e02b.firebaseio.com",
+    "project_id": "foodhub-8e02b",
+    "storage_bucket": "foodhub-8e02b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373243727045:android:6e35801bc469a0eb",
+        "android_client_info": {
+          "package_name": "com.t2s.foodhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373243727045-i8ip8jgb34eu9uqq93fri19rl9cst1np.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.foodhub",
+            "certificate_hash": "bea3c8993816130e4f27e2a2f4f2243bac50319a"
+          }
+        },
+        {
+          "client_id": "373243727045-6mkhndl14roriisuob9m2fd6j7fdlvcf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.foodhub",
+            "certificate_hash": "dd66e85895a769e9902457a6bb20539f5818d28b"
+          }
+        },
+        {
+          "client_id": "373243727045-b9d5rccrpr1mdvbr2au1rk7jpfi0v7hr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.foodhub",
+            "certificate_hash": "edbb533813f68d376fc05e39802e8bfcdce4a005"
+          }
+        },
+        {
+          "client_id": "373243727045-vft9p6ce1ipqgk5fhg1gqvcajm479vrv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.foodhub",
+            "certificate_hash": "a5e26ad0df3a9fbf79df8579fa3d4ec7f5ff460d"
+          }
+        },
+        {
+          "client_id": "373243727045-4d4la7a8qa7v18ngi0ijj0pftkdv8ttg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.foodhub",
+            "certificate_hash": "6eab44fc0f29aefe139444c3529b53da0537e31e"
+          }
+        },
+        {
+          "client_id": "373243727045-9sct3mre8d52k87pm866ir2lqhbj0gca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.foodhub",
+            "certificate_hash": "af7d2231340d3370e16b5a9559730e7373398770"
+          }
+        },
+        {
+          "client_id": "373243727045-gr9amk08bmlocgbdpsptpo380t09vtij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t2s.foodhub",
+            "certificate_hash": "59379e503b941bd668c66569e56f71d55723c42e"
+          }
+        },
+        {
+          "client_id": "373243727045-aecrrglgl2fp7hdq5so5qlheran0gm59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6-via6kh1tWDugjPhtXzBMKcxy2vQgc0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373243727045-te2vhklq0qncpp4nifl3ehteorgmo8pk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "373243727045-rfq6jj1avoragqhq2ad23u930hvbmikq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.t2s.foodhub"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

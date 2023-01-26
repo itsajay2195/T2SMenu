@@ -1,0 +1,246 @@
+apply plugin: 'com.android.library'
+apply plugin: 'jacoco'
+apply plugin: 'maven'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'de.mannodermaus.android-junit5'
+
+import groovy.json.JsonSlurper
+
+def DEFAULT_COMPILE_SDK_VERSION = 31
+def DEFAULT_BUILD_TOOLS_VERSION = "30.0.3"
+def DEFAULT_MIN_SDK_VERSION = 19
+def DEFAULT_TARGET_SDK_VERSION = 31
+
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+buildscript {
+    ext.kotlin_version = '1.6.10'
+    ext.junit5_version = '5.7.0'
+
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/' }
+
+        mavenCentral()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.4'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:$kotlin_version"
+        classpath 'de.mannodermaus.gradle.plugins:android-junit5:1.7.1.1'
+    }
+}
+
+android {
+    compileSdkVersion safeExtGet('compileSdkVersion', DEFAULT_COMPILE_SDK_VERSION)
+    buildToolsVersion safeExtGet('buildToolsVersion', DEFAULT_BUILD_TOOLS_VERSION)
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion safeExtGet('minSdkVersion', DEFAULT_MIN_SDK_VERSION)
+        targetSdkVersion safeExtGet('targetSdkVersion', DEFAULT_TARGET_SDK_VERSION)
+        versionCode 1
+        versionName "1.0"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+    packagingOptions {
+        exclude 'META-INF/AL2.0'
+        exclude 'META-INF/LGPL2.1'
+    }
+
+    buildTypes {
+        debug {
+            testCoverageEnabled true
+        }
+    }
+    
+    testOptions {
+        animationsDisabled = true
+        unitTests.all {
+            jacoco {
+                includeNoLocationClasses = true
+                jacoco.excludes = ['jdk.internal.*']
+            }
+        }
+    }
+}
+
+repositories {
+    mavenLocal()
+
+    mavenCentral()
+    google()
+
+    maven { url 'https://vocalinkzapp.jfrog.io/artifactory/merchant-library-maven/' }
+
+    maven { url "$projectDir/../node_modules/react-native/android" }
+}
+
+dependencies {
+    //noinspection GradleDynamicVersion
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.appcompat:appcompat-resources:1.4.1'
+    implementation 'com.google.android.gms:play-services-wallet:18.0.0'
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
+
+    implementation 'com.judopay:judokit-android:3.0.9'
+
+    //JUnit 5
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junit5_version"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junit5_version"
+    testImplementation "org.junit.jupiter:junit-jupiter-params:$junit5_version"
+    testRuntimeOnly "org.junit.vintage:junit-vintage-engine:$junit5_version"
+
+    testImplementation 'androidx.test:core:1.4.0'
+    testImplementation 'io.mockk:mockk:1.10.0'
+    testImplementation 'android.arch.core:core-testing:1.1.1'
+}
+
+task generateCodeAnalysisReport {
+    group 'Reporting'
+    description 'Start reporting code analysis tasks (Jacoco)'
+    dependsOn ":jacocoTestReport"
+}
+
+task jacocoTestReport(type: JacocoReport, group: 'verification', description: 'Generate Jacoco Reports for all android variants')
+
+def configureReactNativePom(def pom) {
+    def packageJson = new JsonSlurper().parseText(file('../package.json').text)
+
+    pom.project {
+        name packageJson.title
+        artifactId packageJson.name
+        version = packageJson.version
+        group = "com.reactlibrary"
+        description packageJson.description
+        url packageJson.repository.baseUrl
+
+        licenses {
+            license {
+                name packageJson.license
+                url packageJson.repository.baseUrl + '/blob/master/' + packageJson.licenseFilename
+                distribution 'repo'
+            }
+        }
+
+        developers {
+            developer {
+                id packageJson.author.username
+                name packageJson.author.name
+            }
+        }
+    }
+}
+
+afterEvaluate { project ->
+
+    task androidJavadoc(type: Javadoc) {
+        source = android.sourceSets.main.java.srcDirs
+        classpath += files(android.bootClasspath)
+        classpath += files(project.getConfigurations().getByName('compile').asList())
+        include '**/*.java'
+    }
+
+    task androidJavadocJar(type: Jar, dependsOn: androidJavadoc) {
+        classifier = 'javadoc'
+        from androidJavadoc.destinationDir
+    }
+
+    task androidSourcesJar(type: Jar) {
+        classifier = 'sources'
+        from android.sourceSets.main.java.srcDirs
+        include '**/*.java'
+    }
+
+    android.libraryVariants.all { variant ->
+        def name = variant.name.capitalize()
+        task "jar${name}"(type: Jar, dependsOn: variant.javaCompileProvider.get()) {
+            from variant.javaCompileProvider.get().destinationDir
+        }
+    }
+
+    artifacts {
+        archives androidSourcesJar
+        archives androidJavadocJar
+    }
+
+    task installArchives(type: Upload) {
+        configuration = configurations.archives
+        repositories.mavenDeployer {
+            // Deploy to react-native-event-bridge/maven, ready to publish to npm
+            repository url: "file://${projectDir}/../android/maven"
+
+            configureReactNativePom pom
+        }
+    }
+}
+
+project.afterEvaluate {
+    def variants = android.hasProperty('libraryVariants') ? android.libraryVariants : android.applicationVariants
+    variants.forEach {
+        tasks.jacocoTestReport.dependsOn(addJacocoTask(it))
+    }
+}
+
+def addJacocoTask(variant) {
+    def variantName = variant.name.capitalize()
+    logger.info("Adding jacoco task for variant $variantName")
+
+    // see https://docs.gradle.org/current/dsl/org.gradle.testing.jacoco.tasks.JacocoReport.html
+    def taskName = "jacocoTestReport${variantName}"
+    def foundTask = project.tasks.findByName(taskName)
+    def jacocoTask = foundTask ? foundTask : project.tasks.create(taskName, JacocoReport)
+
+    jacocoTask.dependsOn("test${variantName}UnitTest")
+    jacocoTask.group = 'verification'
+    jacocoTask.description = "Generate Jacoco Report for variant $variantName"
+
+    jacocoTask.reports {
+        csv.enabled false
+        html.enabled true
+        xml.enabled true
+    }
+
+    def excludedFiles = [
+            '**/R.class',
+            '**/R$*.class',
+            '**/BuildConfig.*',
+            '**/Manifest*.*',
+            '**/*test*.*',
+            'android/**/*.*'
+    ]
+
+    def sourceDirectories = files(variant.sourceSets.java.srcDirs.flatten())
+    def classDirectories = fileTree(dir: variant.javaCompileProvider.get().destinationDir, excludes: excludedFiles)
+
+    if (project.plugins.hasPlugin("kotlin-android")) {
+        sourceDirectories.from(files(variant.sourceSets.kotlin.srcDirs.flatten()))
+        def kotlinTask = tasks.getByName("compile${variantName}Kotlin")
+        if (kotlinTask) {
+            classDirectories += fileTree(dir: kotlinTask.destinationDir, excludes: excludedFiles)
+        }
+    }
+
+    jacocoTask.sourceDirectories.from = sourceDirectories
+    jacocoTask.classDirectories.from = classDirectories
+    jacocoTask.executionData.from = files("${buildDir}/jacoco/test${variantName}UnitTest.exec")
+    jacocoTask
+}
